@@ -233,12 +233,11 @@ If you use this work, please cite — see [`CITATION.cff`](CITATION.cff), or:
   title  = {{AETHERA}: Linking Machine-Learning Space Weather Forecasts to the Risk of Individual Satellites},
   year   = {2026},
   howpublished = {\url{https://github.com/habib-u-rahman/AETHERA}},
-  doi    = {10.5281/zenodo.XXXXXXX}
+  doi    = {10.5281/zenodo.23816103}
 }
 ```
 
-The DOI above is a placeholder — it will be filled in once the repository is archived on Zenodo
-(see the project maintainer's release notes for the first tagged release).
+Archived release: [10.5281/zenodo.23816103](https://doi.org/10.5281/zenodo.23816103)
 
 ---
 

@@ -7,7 +7,7 @@ version: 1.0.0
 date-released: "2026-01-01"
 license: MIT
 repository-code: "https://github.com/habib-u-rahman/AETHERA"
-doi: "10.5281/zenodo.XXXXXXX"
+doi: "10.5281/zenodo.23816103"
 type: software
 keywords:
   - space weather
