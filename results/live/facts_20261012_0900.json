@@ -1,0 +1,54 @@
+{
+ "issue_time_utc": "2026-10-12 09:00",
+ "kp_now": 3.3,
+ "noaa_g_level_now": "none (below storm level)",
+ "kp_max_last_24h": 3.3,
+ "solar_wind_speed_km_s": 469,
+ "imf_bz_nT": 0.3,
+ "dst_nT": -31,
+ "kp_forecast": {
+  "3h": 2.7,
+  "6h": 2.6,
+  "12h": 2.7,
+  "24h": 2.9
+ },
+ "storm_level_expected_within": "not expected in the next 24 hours",
+ "forecast_note": "Forecasts more than 12 hours ahead have low skill.",
+ "highest_drag_risk_objects": [
+  {
+   "name": "COSMOS 2251 DEB",
+   "norad_id": 35443,
+   "altitude_km": 359
+  },
+  {
+   "name": "COSMOS 2251 DEB",
+   "norad_id": 33939,
+   "altitude_km": 357
+  },
+  {
+   "name": "COSMOS 2251 DEB",
+   "norad_id": 35891,
+   "altitude_km": 280
+  },
+  {
+   "name": "FENGYUN 1C DEB",
+   "norad_id": 30744,
+   "altitude_km": 418
+  },
+  {
+   "name": "COSMOS 2251 DEB",
+   "norad_id": 38487,
+   "altitude_km": 354
+  }
+ ],
+ "alert": "**What is happening now:**  \nAt 09:00\u202fUTC the geomagnetic conditions are quiet. The Kp index is 3.3 and the NOAA geomagnetic storm level is *none (below storm level)*. Solar wind speed is 469\u202fkm\u202fs\u207b\u00b9, IMF\u202fBz is +0.3\u202fnT and Dst is \u201331\u202fnT.\n\n**What is expected in the next 24\u202fhours:**  \nForecasts show Kp staying between 2.6 and 2.9, and the note says a storm level is *not expected in the next 24\u202fhours*. Confidence drops after 12\u202fhours, but no storm is likely.\n\n**Objects facing the highest drag risk:**  \nThe debris pieces most at risk are the COSMOS\u202f2251 fragments (NORAD\u202f35443 at 359\u202fkm, 33939 at 357\u202fkm, 35891 at 280\u202fkm, 38487 at 354\u202fkm) and the FENGYUN\u202f1C fragment (NORAD\u202f30744 at 418\u202fkm).\n\n**What this means in practice:**  \nWith no storm, satellite operators do not need orientation corrections or major orbit\u2011adjustment maneuvers. However, the listed low\u2011Earth\u2011orbit debris will still experience normal atmospheric drag, so routine tracking and occasional small\u2011burn corrections remain advisable.",
+ "model": "openai/gpt-oss-120b",
+ "rewrites": 0,
+ "remaining_problems": [],
+ "log": [
+  "solar wind: rtsw_wind_1m.json + rtsw_mag_1m.json; saved history 2026-10-11 09:28:00 to 2026-10-12 09:30:00",
+  "Kp lag 3 h, Dst lag 0 h (last values carried forward)",
+  "latest complete hour: 2026-10-12 09:00:00 UTC; data quality: full",
+  "114 low-orbit debris objects from CelesTrak"
+ ]
+}

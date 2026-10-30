@@ -1,0 +1,1320 @@
+scenario,type,issue_time,system,rewrites,n_numbers,unsupported_numbers,kp_errors,g_correct,g_overstated,severity_overstated,invented_objects,flesch,words,problems,alert
+S01,storm,2022-01-08 18:00,Plain LLM,0,15,0,0,1,0,0,0,50.21862582781458,155,,"**Space‑Weather Alert – 8 Jan 2022 18:00 UTC**
+
+The current planetary K‑index (Kp) is 5.0, which places us at the low end of a minor geomagnetic storm (NOAA G1). Solar wind is blowing fast at about 336 km s⁻¹, and the interplanetary magnetic field has a small southward component (Bz ≈ –1 nT). The Dst index is slightly positive (+25 nT), indicating only a modest disturbance in the ring current.
+
+Forecasts show the storm will likely persist for the next 3–6 hours, with Kp expected to drop to around 4.5–4.1. After 12 hours the prediction becomes less reliable, but the trend is toward quieter conditions (Kp ≈ 3.6–2.9).
+
+**What this means for you:**  
+- **Satellites:** Expect a small increase in surface charging and a slight rise in drag for low‑Earth‑orbit assets. No immediate threat to operations, but monitor spacecraft health.  
+- **Students & General Public:** You may see faint auroras at high latitudes; radio communications could experience minor disruptions.
+
+Stay tuned for updates, especially if you operate sensitive equipment."
+S01,storm,2022-01-08 18:00,RAG,0,20,0,0,1,0,0,0,56.94346153846155,158,,"**What is happening now** – At 2022‑01‑08 18:00 UTC the geomagnetic conditions are Kp 5.0, which puts the storm at NOAA level **G1 (minor)**. The solar wind is blowing at about 336 km s⁻¹ and the interplanetary magnetic field Bz is –1.1 nT, giving a quiet‑to‑moderate disturbance.
+
+**What is expected in the next 24 hours** – Forecasts show the Kp index falling gradually: 4.5 in 3 h, 4.1 in 6 h, 3.6 in 12 h and 2.9 in 24 h. The strongest activity is expected within the next 3–6 hours; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk** – No specific satellites are listed, so no particular object can be singled out.
+
+**What this means in practice** – A G1 storm may cause brief low‑frequency radio navigation glitches and faint auroras at mid‑latitudes, but it is not strong enough to create significant satellite drag or surface charging. Operators can continue normal activities, keeping an eye on the short‑term forecast for any slight increase in disturbance."
+S01,storm,2022-01-08 18:00,AETHERA agent,0,21,0,0,1,0,0,0,63.92806213017752,173,,"**What is happening now:**  
+At 2022‑01‑08 18:00 UTC the geomagnetic conditions are at a NOAA G‑level **G1** (minor) with a measured Kp of 5.0. Solar wind is blowing at 336 km s⁻¹, the interplanetary magnetic field Bz is –1.1 nT, and the Dst index is +25 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the Kp will gradually fall, reaching 4.5 in 3 h, 4.1 in 6 h, 3.6 in 12 h, and 2.9 in 24 h. The only periods that could reach storm level are the next 3 h and 6 h, but the overall expected level for the day remains G1. Forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk for this event.
+
+**What this means in practice:**  
+A G1 minor storm may cause brief, low‑frequency radio navigation glitches and faint auroras at mid‑latitude locations, but it is unlikely to produce significant satellite drag, surface charging, or power‑grid impacts. Operators can continue normal activities, keeping an eye on short‑term forecasts for the next few hours."
+S02,storm,2022-01-19 00:00,Plain LLM,0,15,0,0,1,0,1,0,50.547860465116315,135,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space Weather Alert – 19 Jan 2022, 00 UTC**
+
+A moderate geomagnetic disturbance is underway. The current planetary K‑index (Kp) is 5.3, placing us at NOAA G1 (minor storm) level. Solar wind is unusually fast at 661 km/s, and the interplanetary magnetic field’s Bz component is southward at –5.6 nT, both of which help drive the activity. The Dst index is –30 nT, confirming a mild storm.
+
+Forecasts show the disturbance will stay at or above G1 for the next 12 hours, with Kp expected to drop gradually (4.5 in 3 h, 4.2 in 6 h, 3.9 in 12 h). After 12 h the prediction becomes less reliable.
+
+**Impacts:**  
+- Satellite drag may increase slightly; monitor orbit adjustments.  
+- Low‑frequency radio and GPS accuracy could be degraded.  
+- Auroras may be visible at high latitudes.
+
+Stay tuned for updates and consider precautionary measures for sensitive equipment."
+S02,storm,2022-01-19 00:00,RAG,0,19,0,0,1,0,0,0,60.78330645161293,157,,"**What’s happening now:**  
+At 00:00 UTC on 2022‑01‑19 the geomagnetic conditions are at Kp 5.3, which puts the storm at NOAA level **G1 (minor)**. Solar wind is fast (661 km s⁻¹) and the interplanetary magnetic field is southward (Bz = ‑5.6 nT), giving a modest disturbance (Dst ≈ ‑30 nT).
+
+**What to expect in the next 24 hours:**  
+Forecasts show the Kp index falling: 4.5 in 3 h, 4.2 in 6 h, 3.9 in 12 h and 3.2 by 24 h. The strongest activity is expected within the first 12 h; beyond that the forecast skill is low.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, so no particular object is highlighted.
+
+**What this means in practice:**  
+A G1 storm can cause mild disturbances: low‑frequency radio navigation may be briefly affected and faint auroras could be visible far south. Satellite operators may see a small increase in atmospheric drag for low‑Earth‑orbit craft, but no major charging or orientation problems are expected. Power grids and ground systems should remain stable."
+S02,storm,2022-01-19 00:00,AETHERA agent,0,21,0,0,1,0,0,0,60.89961409395974,155,,"**What’s happening now:**  
+At 00:00 UTC on 2022‑01‑19 the geomagnetic conditions are at a NOAA G‑level of **G1** (minor). The current planetary Kp index is **5.3**, solar wind speed is **661 km s⁻¹**, the interplanetary magnetic field Bz is **‑5.6 nT**, and the Dst index is **‑30 nT**.
+
+**What to expect in the next 24 hours:**  
+Forecasts show the Kp index falling: 4.5 in 3 h, 4.2 in 6 h, 3.9 in 12 h, and 3.2 in 24 h. The highest storm level expected within the next 12 h remains **G1**; forecasts beyond 12 h have low skill.
+
+**Objects at highest drag risk:**  
+No specific satellites or objects are listed in the data.
+
+**What this means for you:**  
+A G1 storm can cause minor disturbances: low‑frequency radio navigation may be briefly affected, and faint auroras could be visible far south (around 45° geomagnetic latitude). Satellite operators may see a slight increase in atmospheric drag for low‑Earth‑orbit craft, but no major impacts are expected. Stay tuned for updates."
+S03,storm,2022-02-03 06:00,Plain LLM,0,25,0,0,1,0,1,0,43.71990547263684,137,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 3 Feb 2022 06:00 UTC**
+
+A moderate geomagnetic storm is underway. The planetary K‑index is now **Kp = 5.0** and the NOAA G‑level is **G1 (minor storm)**. Solar wind is unusually fast at **473 km s⁻¹**, and the interplanetary magnetic field is pointing southward (**Bz = –9.2 nT**), which helps drive the disturbance. The Dst index is modest (**–15 nT**), indicating a weak ring‑current response.
+
+**Forecast:** Kp is expected to stay elevated for the next 3–6 hours (≈4.9 → 4.4) before gradually falling to quiet levels by 24 h. Forecasts beyond 12 h have low confidence.
+
+**Impact:**  
+- Satellite operators should watch for increased surface charging and possible attitude‑control glitches, especially for low‑Earth‑orbit objects around **300 km**.  
+- The debris pieces most at risk are COSMOS‑1408 fragments (NORAD IDs 50635, 49795, 49596, 50693) and USA‑15 fragment (NORAD 16630), all near 260‑310 km altitude.  
+
+Take precautionary measures (e.g., suspend sensitive operations, monitor telemetry) during the next 6 hours."
+S03,storm,2022-02-03 06:00,RAG,0,36,0,0,1,0,0,0,65.26111471861475,157,,"**What is happening now:**  
+At 06:00 UTC on 2022‑02‑03 the geomagnetic conditions are at Kp 5.0, giving a NOAA G‑level of **G1** (minor). The solar wind is fast (473 km s⁻¹) and the interplanetary magnetic field is southward (Bz = ‑9.2 nT), with a modest Dst of ‑15 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the storm weakening: Kp ≈ 4.9 in 3 h, 4.4 in 6 h, 3.6 in 12 h and 3.2 in 24 h. The strongest activity is expected within the next 3–6 h; forecasts beyond 12 h have low skill.
+
+**Objects facing the highest drag risk:**  
+- COSMOS 1408 DEB (NORAD 50635) at 305 km  
+- USA 15 DEB (NORAD 16630) at 309 km  
+- COSMOS 1408 DEB (NORAD 49795) at 259 km  
+- COSMOS 1408 DEB (NORAD 49596) at 301 km  
+- COSMOS 1408 DEB (NORAD 50693) at 260 km  
+
+**What this means in practice:**  
+The atmosphere will heat and expand, increasing drag on these low‑Earth‑orbit debris pieces, causing them to slow and lose altitude faster. For most users the storm remains minor, but satellite operators should monitor the listed objects for possible orbit adjustments."
+S03,storm,2022-02-03 06:00,AETHERA agent,1,36,0,0,1,0,0,0,62.50590883668909,156,,"**What is happening now** – At 06:00 UTC on 2022‑02‑03 the geomagnetic conditions are Kp 5.0, giving a NOAA storm level of **G1 (minor)**. Solar wind speed is 473 km s⁻¹, IMF Bz = ‑9.2 nT and Dst = ‑15 nT.  
+
+**What is expected in the next 24 hours** – Forecast Kp drops to 4.9 in 3 h, 4.4 in 6 h, 3.6 in 12 h and 3.2 in 24 h. Only the 3‑hour and 6‑hour windows could reach storm level; beyond 12 h the forecast has low skill.  
+
+**Objects facing the highest drag risk** –  
+- COSMOS 1408 DEB (NORAD 50635, 305 km)  
+- USA 15 DEB (NORAD 16630, 309 km)  
+- COSMOS 1408 DEB (NORAD 49795, 259 km)  
+- COSMOS 1408 DEB (NORAD 49596, 301 km)  
+- COSMOS 1408 DEB (NORAD 50693, 260 km)  
+
+**What this means in practice** – A G1 event may produce faint auroras at mid‑latitudes and occasional low‑frequency radio or navigation glitches, but no serious satellite damage. The listed low‑Earth‑orbit debris could see a modest increase in atmospheric drag, leading to slightly faster orbital decay; operators should watch altitudes and be ready for minor correction burns."
+S04,storm,2022-03-13 12:00,Plain LLM,0,15,0,0,1,0,0,0,35.29077586206898,152,,"**Space‑Weather Alert – 13 Mar 2022 12 UTC**
+
+The geomagnetic activity is currently elevated (Kp ≈ 5.7, NOAA G1). Solar wind is fast at about 505 km s⁻¹ and the interplanetary magnetic field is turning southward (Bz ≈ ‑6.7 nT), both conditions that can drive geomagnetic disturbances. The Dst index is modestly positive (+29 nT), indicating no major ring‑current storm yet, but the high Kp suggests possible short‑term impacts.
+
+**What to expect:**  
+- In the next 3 hours the Kp is forecast to stay around 5.3, then drop to 4.9 in 6 h and 4.1 in 12 h.  
+- Elevated activity (Kp > 4) is likely for the next 12 hours; after that forecasts become less reliable.
+
+**Implications for you:**  
+- Satellite operators should watch for increased surface charging and possible attitude‑control glitches.  
+- Radio communications, especially high‑frequency (HF) links, may experience more absorption and occasional blackouts.  
+- Students and hobbyists can expect brighter auroras at lower latitudes tonight.
+
+Stay tuned to updates and consider protective measures for sensitive equipment."
+S04,storm,2022-03-13 12:00,RAG,0,18,0,0,1,0,0,0,60.068154471544744,162,,"**What’s happening now:**  
+At 12:00 UTC on 13 Mar 2022 the geomagnetic activity is Kp 5.7, which puts the storm at NOAA level **G1 (minor)**. Solar wind is fast (505 km/s) and the interplanetary magnetic field is southward (Bz = ‑6.7 nT), giving a small positive Dst (+29 nT).
+
+**What’s expected in the next 24 hours:**  
+The forecast shows the disturbance weakening: Kp ≈ 5.3 in 3 h, 4.9 in 6 h, 4.1 in 12 h, and 3.2 by 24 h. The note says forecasts beyond 12 h are less reliable, but the trend is toward calmer conditions.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular asset is highlighted.
+
+**What this means in practice:**  
+A G1 storm can cause mild effects: low‑frequency radio navigation may be briefly disturbed and faint auroras could be visible far south (e.g., around Alabama or northern California). The increased atmospheric density may add a small amount of drag to low‑Earth‑orbit satellites, but the impact is modest and should not require urgent maneuvering."
+S04,storm,2022-03-13 12:00,AETHERA agent,0,19,0,0,1,0,0,0,59.89505376344087,157,,"**What’s happening now:**  
+At 12:00 UTC on 2022‑03‑13 the geomagnetic conditions are at a NOAA G‑level **G1** (minor) with a measured Kp of 5.7. Solar wind is fast (505 km s⁻¹) and the interplanetary magnetic field Bz is southward at –6.7 nT, giving a small positive Dst of +29 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show the Kp index falling steadily: 5.3 in 3 h, 4.9 in 6 h, 4.1 in 12 h, and 3.2 by 24 h. The expected storm level remains **G1** for the whole period (forecasts beyond 12 h have low skill).
+
+**Objects facing the highest drag risk:**  
+No specific satellites or objects are listed as being at heightened drag risk in the data.
+
+**What this means in practice:**  
+A G1 storm may cause minor disturbances: low‑frequency radio navigation could be briefly affected, and faint auroras might be visible far south (e.g., Alabama, northern California). Satellite operators should monitor but do not need major corrective actions; drag on low‑Earth‑orbit spacecraft should remain normal."
+S05,storm,2022-04-15 00:00,Plain LLM,0,17,0,0,1,0,0,0,48.513563134978256,110,,"**Space‑Weather Alert – 15 Apr 2022 00 UTC**
+
+A moderate geomagnetic storm is currently underway. The planetary K‑index (Kp) is 5.0 and the NOAA G‑scale is at G1, indicating possible minor impacts on satellite operations and high‑frequency communications. Solar wind speed is high at 493 km s⁻¹, and the interplanetary magnetic field’s Bz component is strongly southward (‑7.9 nT), driving the disturbance. The Dst index of –70 nT confirms a moderate storm.
+
+**Forecast (next 24 h):**  
+- 3 h: Kp ≈ 5.3  
+- 6 h: Kp ≈ 5.0  
+- 12 h: Kp ≈ 4.4  
+- 24 h: Kp ≈ 3.8  
+
+The storm is expected to weaken over the next day, but caution is advised for satellite pointing, drag, and radiation‑sensitive equipment. Forecasts beyond 12 hours have low confidence. Stay tuned for updates."
+S05,storm,2022-04-15 00:00,RAG,0,19,0,0,1,0,0,0,65.63850895679664,148,,"**What’s happening now:**  
+At 2022‑04‑15 00:00 UTC the geomagnetic conditions are at Kp 5.0, which puts the storm at NOAA level **G1** (minor). The solar wind is blowing at 493 km s⁻¹ with an IMF Bz of –7.9 nT, and the Dst index is –70 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show a slight easing: Kp 5.3 in 3 h, 5.0 in 6 h, 4.4 in 12 h, and 3.8 in 24 h. The model notes that predictions beyond 12 h have low skill, but the trend is toward weaker activity.
+
+**Which objects face the highest drag risk:**  
+No low‑Earth‑orbit satellites are listed as being at high drag risk for this minor (G1) event.
+
+**What this means in practice:**  
+A G1 storm may cause brief low‑frequency radio navigation glitches and faint auroras at mid‑latitudes, but satellite drag and surface charging are unlikely to be significant. Operators can continue normal activities, keeping an eye on any unexpected navigation alerts."
+S05,storm,2022-04-15 00:00,AETHERA agent,0,19,0,0,1,0,0,0,53.67078747203581,147,,"**What’s happening now:**  
+At 2022‑04‑15 00:00 UTC the geomagnetic conditions are at Kp 5.0, which places the storm at NOAA level **G1 (minor)**. Solar wind is fast (≈ 493 km/s) and the interplanetary magnetic field is southward (Bz ≈ ‑7.9 nT), giving a modest disturbance (Dst ≈ ‑70 nT).
+
+**What to expect in the next 24 hours:**  
+Forecasts show the storm weakening gradually: Kp 5.3 in 3 h, 5.0 in 6 h, 4.4 in 12 h and 3.8 in 24 h. The highest level likely reached is G2 (moderate), but forecasts beyond 12 h have low skill.
+
+**Objects at highest drag risk:**  
+No specific satellites are listed, but low‑Earth‑orbit (LEO) spacecraft can experience increased atmospheric drag as the heated upper atmosphere expands.
+
+**What this means for you:**  
+Radio navigation may be briefly disturbed, and auroras could be visible far south (e.g., Alabama, northern California). Satellite operators should monitor drag and be ready to adjust orbits if needed, while power‑grid operators may see minor voltage corrections."
+S06,storm,2022-07-07 12:00,Plain LLM,0,14,0,0,1,0,1,0,48.85618461538465,131,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space Weather Alert – 12:00 UTC, 7 July 2022**
+
+A moderate geomagnetic disturbance is ongoing. The planetary K‑index (Kp) is 5.3, placing us at NOAA G1 (minor storm) level. Solar wind is fast at about 404 km s⁻¹, and the interplanetary magnetic field has a southward component of –8 nT, both of which help drive the activity. The Dst index is slightly positive (+29 nT), indicating the storm is not yet intense.
+
+Forecasts show the disturbance will stay at a similar level for the next 12 hours (Kp ≈ 4.8–4.2). After 12 hours the confidence drops, and the storm is expected to weaken (Kp ≈ 3.1).
+
+**Impacts:**  
+- Satellite operators: expect modest increases in surface charging and possible small attitude‑control adjustments.  
+- Students and hobbyists: auroras may be visible at higher latitudes.
+
+Stay tuned for updates; forecasts beyond 12 hours have low reliability."
+S06,storm,2022-07-07 12:00,RAG,0,19,0,0,1,0,0,0,57.12747747747747,149,,"**What’s happening now:**  
+At 12:00 UTC on 2022‑07‑07 the geomagnetic conditions are active with Kp = 5.3 and NOAA storm level **G1** (minor). Solar wind is fast at 404 km s⁻¹ and the interplanetary magnetic field is southward (Bz = ‑8 nT), giving a small positive Dst of +29 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp ≈ 4.8 in 3 h, 4.7 in 6 h, 4.2 in 12 h, and 3.1 by 24 h. The note warns that forecasts beyond 12 h have low skill, but the trend is toward calmer conditions.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, but low‑Earth‑orbit objects can experience increased drag when the atmosphere expands during storms.
+
+**What this means in practice:**  
+The minor storm may cause brief low‑frequency radio and navigation glitches and faint auroras at lower latitudes, but it is unlikely to damage satellites or power systems. Operators should monitor for small orientation adjustments in LEO spacecraft."
+S06,storm,2022-07-07 12:00,AETHERA agent,0,20,0,0,1,0,0,0,53.401250000000005,150,,"**What’s happening now:**  
+At 12:00 UTC on 2022‑07‑07 the geomagnetic conditions are at Kp 5.3, which places the storm at NOAA level **G1 (minor)**. Solar wind is blowing at 404 km s⁻¹ and the interplanetary magnetic field Bz is –8 nT, with a Dst of +29 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp ≈ 4.8 in 3 h, 4.7 in 6 h, 4.2 in 12 h, and 3.1 by 24 h. The highest level expected within the next 12 h remains G1; forecasts beyond 12 h have low skill.
+
+**Objects facing the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag risk can be identified.
+
+**What this means in practice:**  
+A G1 storm may cause brief low‑frequency radio and navigation glitches and faint auroras at mid‑latitudes, but it is unlikely to produce significant satellite charging or major drag increases. Operators can continue normal activities, monitoring for minor communication disturbances."
+S07,storm,2022-08-07 21:00,Plain LLM,0,17,0,0,1,0,0,0,41.74892857142859,130,,"**Space‑Weather Alert – 21 UTC, 7 Aug 2022**
+
+The geomagnetic activity is currently elevated (Kp ≈ 5.7) and classified as a G1 (minor) geomagnetic storm. Solar wind is very fast at about 570 km s⁻¹, and the interplanetary magnetic field has a small southward component (Bz ≈ ‑2 nT), which together are driving the disturbance. The Dst index is only mildly negative (‑17 nT), so the storm is not severe, but it can still affect satellite operations, high‑frequency radio, and sensitive electronics.
+
+**Forecast (next 24 h):**  
+- 3 h: Kp ≈ 4.9  
+- 6 h: Kp ≈ 4.4  
+- 12 h: Kp ≈ 3.9  
+- 24 h: Kp ≈ 3.5  
+
+The storm is expected to weaken over the day, but note that forecasts beyond 12 hours have low confidence. Operators should monitor spacecraft charging and consider temporary adjustments to high‑frequency communication links. Students can expect modest auroral displays at high latitudes. Stay tuned for updates."
+S07,storm,2022-08-07 21:00,RAG,0,19,0,0,1,0,0,0,61.07746606334845,154,,"**What’s happening now:**  
+At 2022‑08‑07 21:00 UTC the geomagnetic conditions are active with Kp = 5.7 and NOAA storm level **G1** (minor). Solar wind is fast at 573 km s⁻¹ and the interplanetary magnetic field Bz is –2.1 nT, giving a modest disturbance (Dst ≈ –17 nT).
+
+**What’s expected in the next 24 hours:**  
+Forecasts show the storm weakening: Kp is expected to drop to 4.9 in 3 h, 4.4 in 6 h, 3.9 in 12 h and 3.5 by 24 h. The note warns that forecasts beyond 12 h have low skill, but the trend is clearly downward.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, and a G1 storm only produces a small increase in atmospheric density, so drag risk for low‑Earth‑orbit objects remains low.
+
+**What this means in practice:**  
+For most users the impact will be minor: occasional low‑frequency radio or navigation glitches and faint auroras may be seen at mid‑latitude locations. Satellite operators should monitor but do not need urgent corrective actions."
+S07,storm,2022-08-07 21:00,AETHERA agent,0,19,0,0,1,0,0,0,64.52106753355707,147,,"**What’s happening now:**  
+At 2022‑08‑07 21:00 UTC the geomagnetic conditions are at a NOAA G1 (minor) level, with a measured Kp of 5.7, solar wind speed 573 km s⁻¹, IMF Bz –2.1 nT and Dst –17 nT.
+
+**What’s expected in the next 24 hours:**  
+Forecasts show the storm will stay at the G1 level. The Kp index is expected to fall gradually: 4.9 in 3 h, 4.4 in 6 h, 3.9 in 12 h and 3.5 in 24 h. (Forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed in the data.
+
+**What this means in practice:**  
+A G1 storm can cause minor disturbances: low‑frequency radio navigation may be briefly disrupted and faint auroras could be visible far south (e.g., Alabama, northern California). Satellite operators may see a small increase in atmospheric drag for low‑Earth‑orbit craft, but no major charging or orientation issues are expected. Power grids and most ground systems should operate normally."
+S08,storm,2022-08-19 18:00,Plain LLM,0,18,0,0,1,0,1,0,38.5266666666667,138,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 19 Aug 2022 18:00 UTC**
+
+The geomagnetic activity is currently at a moderate level (Kp = 5.0, NOAA G1). Solar wind is very fast (≈ 630 km s⁻¹) and the interplanetary magnetic field is pointing south (Bz ≈ ‑6 nT), both of which can enhance geomagnetic disturbances. The Dst index is only slightly negative (‑11 nT), indicating no major storm yet, but conditions are ripe for short‑term effects.
+
+Forecasts show the disturbance persisting for the next 12 hours, with Kp expected to stay around 4–5 (3‑hour forecast ≈ 4.5, 6‑hour ≈ 4.2, 12‑hour ≈ 3.7). This level can cause:
+
+* Small to moderate errors in satellite positioning and drag.
+* Possible brief radio‑communication glitches, especially at high latitudes.
+* Minor impacts on power‑grid voltage regulation.
+
+Operators should monitor satellite telemetry and be prepared for brief anomalies. Students can expect modest auroral displays at high latitudes. Forecasts beyond 12 hours are less reliable. Stay tuned for updates."
+S08,storm,2022-08-19 18:00,RAG,0,19,0,0,1,0,0,0,59.19946153846158,153,,"**What is happening now:**  
+At 18:00 UTC on 2022‑08‑19 the geomagnetic conditions are at Kp 5.0, which puts the storm at NOAA level **G1 (minor)**. The solar wind is very fast (629 km s⁻¹) and the interplanetary magnetic field is southward (Bz = ‑5.9 nT), giving a small negative Dst (‑11 nT).
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance will gradually weaken: Kp ≈ 4.5 in 3 h, 4.2 in 6 h, 3.7 in 12 h, and 3.2 after 24 h. The forecast notes that predictions beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag risk can be identified.
+
+**What this means in practice:**  
+A G1 storm is minor; most systems will operate normally. You may notice faint auroras at lower latitudes and a slight increase in atmospheric drag for very low‑Earth‑orbit satellites, but no major impacts on navigation, power grids, or satellite operations are expected."
+S08,storm,2022-08-19 18:00,AETHERA agent,0,20,0,0,1,0,0,0,59.91145720476706,142,,"**What is happening now:**  
+At 2022‑08‑19 18:00 UTC the geomagnetic conditions are at a NOAA G1 (minor) level, with a measured Kp of 5.0, solar wind speed 629 km s⁻¹, IMF Bz = ‑5.9 nT and Dst = ‑11 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the Kp will gradually fall, reaching about 3.2 by 24 h (3 h = 4.5, 6 h = 4.2, 12 h = 3.7). The highest storm level expected within the next 12 h remains G1; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk for this event.
+
+**What this means in practice:**  
+A G1 storm is minor. Most systems will operate normally; only occasional low‑frequency radio navigation glitches are possible, and auroras may be visible at mid‑latitude locations such as Alabama and northern California. Satellite operators do not need to take special drag‑mitigation actions at this time."
+S09,storm,2022-09-27 00:00,Plain LLM,0,19,0,0,1,0,1,0,54.85592870544093,129,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 27 Sep 2022, 00 UTC**
+
+A moderate geomagnetic disturbance is underway. The current planetary K‑index (Kp) is **5.3**, and the NOAA G‑scale is **G1 (minor storm)**. Solar wind is fast at **363 km s⁻¹**, and the interplanetary magnetic field has a southward component **Bz = –11 nT**, both of which help drive the activity. The Dst index is near zero (≈ +7 nT), indicating the storm is not yet intense.
+
+Forecasts show the disturbance will stay at **Kp ≈ 4–5** for the next 12 hours (3 h: 4.8, 6 h: 4.4, 12 h: 3.7) before easing to quiet levels (Kp ≈ 3) after 24 h. Expect modest impacts on satellite drag, low‑frequency radio, and auroral visibility at high latitudes. No severe effects on GPS or power grids are expected, but operators should monitor for minor anomalies.
+
+*Note: forecasts beyond 12 h have low confidence.*"
+S09,storm,2022-09-27 00:00,RAG,0,18,0,0,1,0,0,0,57.7537912087912,170,,"**What’s happening now:**  
+At 00:00 UTC on 27 Sept 2022 the geomagnetic conditions are at Kp 5.3, which puts the storm at NOAA level **G1** (minor). Solar wind is blowing at 363 km s⁻¹ and the interplanetary magnetic field Bz is –11 nT, giving a small positive Dst of 7 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp is expected to drop to 4.8 in 3 h, 4.4 in 6 h, 3.7 in 12 h, and 3.0 by 24 h. The model notes that forecasts beyond 12 h have low skill, but the trend is toward calmer conditions.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular asset is highlighted.
+
+**What this means in practice:**  
+A G1 storm can cause minor effects such as brief low‑frequency radio navigation glitches and faint auroras at mid‑latitudes. Drag on low‑Earth‑orbit satellites may increase slightly, but the expected weakening means any altitude loss will be modest. No major operational actions are required, but operators should stay aware of the short‑term forecast."
+S09,storm,2022-09-27 00:00,AETHERA agent,0,20,0,0,1,0,0,0,61.37850000000003,144,,"**What’s happening now:**  
+At 2022‑09‑27 00:00 UTC the geomagnetic conditions are at Kp 5.3, giving a NOAA G‑level of **G1** (minor storm). Solar wind speed is 363 km s⁻¹ and the interplanetary magnetic field Bz is –11 nT, with a Dst of 7 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show the storm weakening: Kp 4.8 in 3 h, 4.4 in 6 h, 3.7 in 12 h, and 3.0 in 24 h. The highest level expected within the next 12 h remains G1; forecasts beyond 12 h have low skill.
+
+**Objects at highest drag risk:**  
+No specific satellites are listed, so no particular object is highlighted.
+
+**What this means for you:**  
+A G1 event can cause minor disturbances: low‑frequency radio navigation may be briefly disrupted and faint auroras could be visible far south (e.g., Alabama, northern California). Satellite operators may see a small increase in atmospheric drag, but no major impacts are expected. Stay tuned for updates."
+S10,storm,2022-11-07 15:00,Plain LLM,0,12,0,0,1,0,1,0,41.01549185463659,139,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 7 Nov 2022, 15 UTC**
+
+A moderate geomagnetic storm is currently underway. The planetary K‑index (Kp) is 5.0 and the NOAA G‑scale is at G1, indicating a **minor storm** that can affect satellite operations and high‑frequency communications. Solar wind is fast (≈ 387 km s⁻¹) and the interplanetary magnetic field points southward (Bz ≈ ‑9 nT), both of which help drive the disturbance. The Dst index is –56 nT, confirming a modest ring‑current enhancement.
+
+**What to expect:**  
+- The storm is likely to stay at this level for the next 3–6 hours.  
+- After 12 hours the forecast becomes uncertain; activity should gradually subside (Kp forecast drops to ~2.7 by 24 h).
+
+**Recommended actions:**  
+- Check satellite attitude‑control and power‑budget margins.  
+- Monitor HF radio links for possible fading or loss.  
+- No immediate danger to astronauts, but stay alert for brief increases in radiation exposure.
+
+Stay tuned for updates."
+S10,storm,2022-11-07 15:00,RAG,0,21,0,0,1,0,0,0,60.20027070063696,161,,"**What is happening now:**  
+At 2022‑11‑07 15:00 UTC the geomagnetic conditions are at Kp 5.0, which places the storm at NOAA level **G1 (minor)**. The solar wind is blowing at 387 km s⁻¹ with an IMF Bz of –9.4 nT, and the Dst index is –56 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp is expected to drop to 4.7 in 3 h, 4.3 in 6 h, 3.4 in 12 h and 2.7 in 24 h. The strongest activity is still expected within the next 3–6 h; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, so no particular object is highlighted.
+
+**What this means in practice:**  
+A G1 storm can cause modest increases in atmospheric drag for low‑Earth‑orbit satellites, but the effect will be small and short‑lived. Radio navigation may experience brief low‑frequency disruptions, and faint auroras could be visible as far south as Alabama and northern California. No major power or satellite orientation problems are expected."
+S10,storm,2022-11-07 15:00,AETHERA agent,0,15,0,0,1,0,0,0,50.077243401759546,157,,"**What is happening now:**  
+At 15:00 UTC on 2022‑11‑07 the geomagnetic conditions are at a NOAA G‑level **G1** (minor) with a measured Kp of 5.0. Solar wind is blowing at 387 km s⁻¹, the interplanetary magnetic field Bz is –9.4 nT, and the Dst index is –56 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the Kp will gradually fall, reaching about 2.7 by 24 h. The strongest activity is still expected within the next 3–6 h, after which the storm will weaken. (Forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag risk can be identified at this time.
+
+**What this means in practice:**  
+A G1 storm may cause minor disturbances to high‑frequency radio and occasional auroras at mid‑latitudes, but it is unlikely to produce significant satellite charging or increased drag. Spacecraft operators can continue normal operations, monitoring for any small orientation adjustments if needed."
+S11,storm,2023-01-15 21:00,Plain LLM,0,14,0,0,1,0,1,0,44.617464788732406,148,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 15 Jan 2023 21:00 UTC**
+
+A moderate geomagnetic disturbance is underway. The current planetary K‑index (Kp) is 5.0 and the NOAA G‑scale is at G1, indicating a **minor geomagnetic storm**. Solar wind is unusually fast at **477 km s⁻¹**, and the interplanetary magnetic field’s Bz component is southward at **‑7.3 nT**, both of which help drive the storm. The Dst index is **‑42 nT**, confirming the disturbance.
+
+**What to expect:**  
+- The storm is likely to stay at this level for the next 3–6 hours.  
+- After 6 hours the activity should ease, with Kp dropping to about 3.5–3.3 over the next day (forecasts beyond 12 h are less reliable).
+
+**Impacts:**  
+- Satellite operators may see increased surface charging and minor drag changes.  
+- Radio communications, especially high‑frequency (HF) links, could experience brief interruptions.  
+- Students and hobbyists should expect occasional auroras at lower latitudes.
+
+Stay tuned to updates and consider protective measures for sensitive equipment."
+S11,storm,2023-01-15 21:00,RAG,0,21,0,0,1,0,0,0,60.49643678160922,145,,"**What’s happening now:**  
+At 2023‑01‑15 21:00 UTC the geomagnetic conditions are at Kp 5.0, which puts the storm at NOAA level **G1 (minor)**. Solar wind is fast (477 km s⁻¹) and the interplanetary magnetic field is southward (Bz = ‑7.3 nT), giving a modest disturbance (Dst ≈ ‑42 nT).
+
+**What to expect in the next 24 hours:**  
+Forecasts show the Kp index falling gradually: 4.7 in 3 h, 4.2 in 6 h, 3.5 in 12 h, and 3.3 in 24 h. The strongest activity is expected within the next 3–6 h; beyond 12 h the forecast skill is low.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, so no particular object can be singled out.
+
+**What this means in practice:**  
+A G1 storm can cause minor disturbances: low‑frequency radio navigation may be briefly affected, and faint auroras could be visible far south (e.g., Alabama, northern California). Satellite operators should monitor but no major drag or charging issues are expected."
+S11,storm,2023-01-15 21:00,AETHERA agent,0,20,0,0,1,0,0,0,62.97955882352943,163,,"**What is happening now:**  
+At 2023‑01‑15 21:00 UTC the geomagnetic conditions are at Kp 5.0, which places the storm at NOAA level **G1 (minor)**. Solar wind is blowing at 477 km s⁻¹ with an IMF Bz of –7.3 nT, and the Dst index is –42 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp is expected to drop to 4.7 in 3 h, 4.2 in 6 h, 3.5 in 12 h, and 3.3 in 24 h. The highest storm level likely within the next 24 h remains G1. (Forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk for this event.
+
+**What this means in practice:**  
+A G1 storm can cause minor disturbances to low‑frequency radio navigation and produce faint auroras at mid‑latitude locations (e.g., Alabama, northern California). Satellite operators may see a slight increase in atmospheric drag for low‑Earth‑orbit craft, but no major orientation or charging issues are expected. Power‑grid impacts are unlikely."
+S12,storm,2023-03-23 12:00,Plain LLM,0,17,0,0,1,0,0,0,47.49490603146856,153,,"**Space‑Weather Alert – 23 Mar 2023 12 UTC**
+
+A moderate geomagnetic storm is currently underway. The planetary K‑index (Kp) is 6.7, placing us at NOAA G2 (moderate) conditions. Solar wind is very fast at about 500 km s⁻¹, and the interplanetary magnetic field has a southward component (Bz ≈ –3 nT), both of which help drive the disturbance. The Dst index is –35 nT, confirming a modest ring‑current enhancement.
+
+**What to expect:**  
+- In the next 3 hours the Kp is forecast to stay near 5.8, then slowly drop to about 5.2 in 6 h, 4.4 in 12 h, and 3.5 after 24 h.  
+- The strongest effects are therefore expected within the next 12 hours.
+
+**Impacts:**  
+- Satellite navigation and communication may experience brief glitches or increased error rates.  
+- Low‑Earth‑orbit spacecraft could see slightly higher drag.  
+- Auroras may be visible at mid‑latitudes.
+
+**Action:** Monitor satellite telemetry and be prepared for minor anomalies. Forecasts beyond 12 hours have low confidence, so keep an eye on updates."
+S12,storm,2023-03-23 12:00,RAG,0,19,0,0,1,0,0,0,57.22532051282053,133,,"**What is happening now:**  
+At 12:00 UTC on 2023‑03‑23 the geomagnetic conditions are elevated with Kp = 6.7, NOAA G‑level **G2** (moderate storm), solar‑wind speed 501 km s⁻¹, IMF Bz = ‑3.4 nT and Dst = ‑35 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show Kp decreasing: 5.8 in 3 h, 5.2 in 6 h, 4.4 in 12 h and 3.5 in 24 h. (Forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag‑risk targets can be named.
+
+**What this means in practice:**  
+A G2 storm may require ground controllers to adjust satellite orientation and could introduce small changes in atmospheric drag, making precise orbit predictions harder. Users of low‑frequency radio navigation might notice brief disruptions, and auroras could be visible as far south as Alabama and northern California."
+S12,storm,2023-03-23 12:00,AETHERA agent,0,19,0,0,1,0,0,0,57.19685569904547,143,,"**What is happening now:**  
+At 12:00 UTC on 2023‑03‑23 the geomagnetic conditions are moderate (NOAA G2). The planetary Kp index is 6.7, solar‑wind speed is 501 km s⁻¹, the interplanetary magnetic field Bz is –3.4 nT, and the Dst index is –35 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the Kp index falling: 5.8 in 3 h, 5.2 in 6 h, 4.4 in 12 h, and 3.5 in 24 h. The highest storm level expected remains G2; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific objects are listed in the data, so no particular satellite is highlighted.
+
+**What this means in practice:**  
+A G2 moderate storm may require ground controllers to adjust satellite orientation and could change atmospheric drag, making precise orbit predictions harder. Users of low‑frequency radio navigation might notice brief disruptions, and auroras could be visible farther south than usual."
+S13,storm,2023-04-24 00:00,Plain LLM,0,17,0,0,1,0,0,0,42.99093511450383,139,,"**Space‑Weather Alert – 24 Apr 2023 00 UTC**
+
+A strong geomagnetic storm is currently underway. The planetary K‑index (Kp) is 6.7 (G2 “moderate” storm) and peaked at 8.3 in the past 24 h. Solar wind is blasting past Earth at 632 km s⁻¹, and the interplanetary magnetic field is pointing northward (Bz ≈ +3 nT), which helps keep the storm from becoming extreme, but the disturbance‑storm‑time index (Dst) is already –147 nT, indicating a significant ring‑current buildup.
+
+**What to expect:**  
+- In the next 3 h and 6 h the Kp will stay above 5 (moderate‑to‑strong).  
+- By 12 h it should drop to about 4.3, and by 24 h to near‑quiet levels (Kp ≈ 2.8).  
+- Forecasts beyond 12 h are uncertain.
+
+**Impacts:**  
+- Satellite drag may increase; consider orbit‑adjustment maneuvers.  
+- High‑frequency radio and GPS accuracy could be degraded.  
+- Astronauts on EVA should limit exposure.
+
+Monitor updates regularly and follow your organization’s mitigation procedures."
+S13,storm,2023-04-24 00:00,RAG,0,19,0,0,1,0,0,0,58.365296850800206,153,,"**What is happening now:**  
+At 2023‑04‑24 00:00 UTC the geomagnetic conditions are strong, with Kp = 6.7 and a NOAA G‑level of **G2** (moderate storm). Solar wind is blasting past Earth at 632 km s⁻¹, the interplanetary magnetic field Bz is +3.0 nT, and the Dst index is –147 nT, indicating a significant disturbance.
+
+**What is expected in the next 24 hours:**  
+Forecasts show Kp falling to 6.0 in 3 h, 5.4 in 6 h, 4.3 in 12 h, and 2.8 by 24 h. The storm should weaken to below G‑level thresholds within the day, though forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the source data.
+
+**What this means in practice:**  
+Ground controllers may need to adjust satellite orientation, and increased atmospheric drag could make orbit predictions less accurate for low‑Earth‑orbit spacecraft. Users of low‑frequency radio navigation might experience brief disruptions, and auroras could be visible far south of the usual zones."
+S13,storm,2023-04-24 00:00,AETHERA agent,0,19,0,0,1,0,0,0,66.45962942167321,142,,"**What is happening now:**  
+At 2023‑04‑24 00:00 UTC the geomagnetic conditions are moderate (NOAA G2). The planetary Kp index is 6.7, solar wind speed is 632 km s⁻¹, IMF Bz is +3.0 nT and Dst is –147 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the storm weakening: Kp is expected to drop to 6.0 in 3 h, 5.4 in 6 h, 4.3 in 12 h and 2.8 in 24 h. (Forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag‑risk targets can be named.
+
+**What this means in practice:**  
+A G2 moderate storm may require ground controllers to adjust satellite orientation and may cause small changes in atmospheric drag, making precise orbit predictions a bit harder. The conditions are expected to improve over the next day, reducing the need for corrective actions."
+S14,storm,2023-05-20 00:00,Plain LLM,0,14,0,0,1,0,1,0,34.30359667359667,118,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 20 May 2023 00 UTC**
+
+The geomagnetic activity is currently elevated (Kp ≈ 5.7, NOAA G1). Solar wind is fast at 370 km s⁻¹ and the interplanetary magnetic field is pointing southward (Bz ≈ –10 nT), driving a modest storm (Dst ≈ –17 nT). Forecasts show the disturbance will stay above moderate levels for the next 12 hours, with Kp expected to drop from 5.2 (3 h) to 4.0 (12 h) before easing further (≈3.3 after 24 h).
+
+**Impacts:**  
+- Low‑Earth‑orbit satellites may experience increased drag and occasional surface charging.  
+- High‑frequency radio and GPS signals could show brief degradations.  
+- Auroras may be visible at mid‑latitudes.
+
+**Actions:**  
+- Monitor satellite telemetry for anomalies.  
+- Plan for possible brief communication interruptions.  
+- No immediate protective measures are required, but stay alert for updates."
+S14,storm,2023-05-20 00:00,RAG,0,19,0,0,1,0,0,0,57.47954081632656,148,,"**What’s happening now:**  
+At 2023‑05‑20 00:00 UTC the geomagnetic conditions are elevated with Kp = 5.7 and NOAA storm level **G1** (minor). Solar wind is blowing at 370 km s⁻¹ and the interplanetary magnetic field Bz is –10.6 nT, giving a modest disturbance (Dst = –17 nT).
+
+**What to expect in the next 24 hours:**  
+Forecasts show the storm weakening: Kp ≈ 5.2 in 3 h, 4.7 in 6 h, 4.0 in 12 h, and 3.3 by 24 h. The strongest impacts are expected within the first 12 h; beyond that the forecast skill is low.
+
+**Objects facing the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag‑risk targets are identified.
+
+**What this means for you:**  
+A G1 event can cause brief low‑frequency radio and navigation glitches and faint auroras at mid‑latitudes. Satellite operators may see a slight increase in atmospheric drag, but the effect should be minor and short‑lived. No major power or communication outages are expected."
+S14,storm,2023-05-20 00:00,AETHERA agent,0,19,0,0,1,0,0,0,63.92807692307693,131,,"**What’s happening now:**  
+At 2023‑05‑20 00:00 UTC the geomagnetic conditions are at Kp 5.7, giving a NOAA storm level of **G1 (minor)**. Solar wind is blowing at 370 km s⁻¹ with an IMF Bz of –10.6 nT and Dst = –17 nT.
+
+**What to expect in the next 24 hours:**  
+The forecast shows the disturbance weakening: Kp ≈ 5.2 in 3 h, 4.7 in 6 h, 4.0 in 12 h, and 3.3 by 24 h. All values remain within the G1 range; forecasts beyond 12 h have low skill.
+
+**Objects facing the highest drag risk:**  
+No specific satellites or objects are listed in the data.
+
+**What this means for you:**  
+A G1 storm may cause brief low‑frequency radio navigation glitches and faint auroras at mid‑latitudes, but it will not significantly increase drag on low‑Earth‑orbit satellites or cause major power‑grid issues. Normal operations can continue with only minor monitoring."
+S15,storm,2023-06-25 00:00,Plain LLM,0,13,0,0,1,0,1,0,41.116956521739155,145,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 25 June 2023 00 UTC**
+
+A moderate geomagnetic storm is currently underway. The planetary K‑index (Kp) is 5.0 and the NOAA G‑scale is at G1, indicating that the Earth's magnetic field is being disturbed. Solar wind is unusually fast at **≈ 500 km s⁻¹**, and the interplanetary magnetic field points southward (Bz ≈ ‑9 nT), both conditions that help drive the storm. The Dst index is –51 nT, confirming a moderate ring‑current enhancement.
+
+**What to expect:**  
+- The storm will likely remain at G1‑level for the next 3–12 hours (forecast Kp 4.9 → 3.7).  
+- After 12 hours the activity should subside to quieter levels (Kp ≈ 3.0), but forecasts beyond this period are uncertain.
+
+**Impacts:**  
+- Satellite drag may increase; consider adjusting low‑Earth‑orbit trajectories.  
+- High‑frequency radio and GPS signals could experience brief disruptions, especially near the poles.  
+- Astronauts on EVA should monitor radiation exposure.
+
+Stay tuned to updates and plan any critical operations accordingly."
+S15,storm,2023-06-25 00:00,RAG,0,19,0,0,1,0,0,0,56.42829617834397,163,,"**What is happening now** – At 00:00 UTC on 2023‑06‑25 the geomagnetic conditions are at Kp 5.0, which puts the storm at NOAA level **G1 (minor)**. The solar wind is fast (501 km/s) and the interplanetary magnetic field is southward (Bz = ‑9.2 nT), giving a modest disturbance (Dst = ‑51 nT).
+
+**What is expected in the next 24 hours** – Forecasts show the Kp index will gradually fall: about 4.9 in 3 h, 4.3 in 6 h, 3.7 in 12 h and 3.0 by 24 h. The strongest activity is expected within the first 12 hours; forecasts beyond that have low skill.
+
+**Which objects face the highest drag risk** – No specific satellites are listed, so no particular object can be singled out.
+
+**What this means in practice** – A G1 storm can cause minor disruptions to low‑frequency radio navigation and produce auroras as far south as Alabama and northern California. Satellite operators may see a slight increase in atmospheric drag for low‑Earth‑orbit spacecraft, but no major charging or orientation problems are expected. Power‑grid impacts are unlikely."
+S15,storm,2023-06-25 00:00,AETHERA agent,0,20,0,0,1,0,0,0,65.273429035753,139,,"**What is happening now:**  
+At 2023‑06‑25 00:00 UTC the geomagnetic conditions are at a NOAA G1 (minor) level, with a measured Kp of 5.0, solar wind speed 501 km s⁻¹, IMF Bz ‑9.2 nT and Dst ‑51 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the storm will weaken, with Kp dropping to 4.9 in 3 h, 4.3 in 6 h, 3.7 in 12 h and 3.0 by 24 h. The highest storm level expected within the next 12 h remains G1; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk for this event.
+
+**What this means in practice:**  
+A G1 storm may cause minor disturbances: low‑frequency radio navigation could be briefly affected and faint auroras might be visible at mid‑latitude locations. Satellite operators should monitor but do not need to take major corrective actions. Power‑grid impacts are unlikely."
+S16,storm,2023-09-12 12:00,Plain LLM,0,14,1,0,1,0,1,0,39.72427083333335,139,"these numbers are not in FACTS or REFERENCE TEXT: [4.5] | a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 12 Sep 2023 12:00 UTC**
+
+A moderate geomagnetic disturbance is currently underway. The planetary K‑index (Kp) is 5.3, placing us at NOAA G1 (minor storm) level. Solar wind is fast (≈ 434 km s⁻¹) and the interplanetary magnetic field has a southward component (Bz ≈ ‑4.7 nT), both of which help drive the activity. The Dst index is modestly positive (+31 nT), indicating the storm is not yet severe.
+
+Forecasts show the disturbance will stay elevated for the next 12 hours, with Kp expected to stay around 4.5–5.0 (still G1). After 12 hours the activity should weaken to quiet levels (Kp ≈ 3.0). Forecasts beyond 12 hours are uncertain.
+
+**Implications:**  
+- Satellite operators should monitor for increased surface charging and possible attitude‑control adjustments.  
+- Radio communications may experience occasional short‑term fades, especially at high latitudes.  
+- Students and hobbyists can expect modest auroral displays near the polar regions.
+
+Stay tuned for updates."
+S16,storm,2023-09-12 12:00,RAG,0,18,0,0,1,0,0,0,64.37826403326406,155,,"**What is happening now** – At 12:00 UTC on 12 Sept 2023 the geomagnetic conditions are at Kp 5.3, which puts the storm at NOAA level **G1** (minor). The solar wind is blowing at 434 km s⁻¹ with an IMF Bz of –4.7 nT and the Dst index is +31 nT.
+
+**What is expected in the next 24 hours** – Forecasts show the disturbance will ease: Kp ≈ 4.9 in 3 h, 4.7 in 6 h, 3.9 in 12 h and about 3.0 after 24 h. The model notes that predictions beyond 12 h have low skill.
+
+**Which objects face the highest drag risk** – No specific satellites or objects are listed in the data, so no particular asset can be singled out.
+
+**What this means in practice** – A G1 storm can cause brief low‑frequency radio and navigation glitches and faint auroras at mid‑latitudes, but it is unlikely to produce significant satellite charging or strong drag. Operators should monitor for minor orientation adjustments, but major corrective actions are not expected."
+S16,storm,2023-09-12 12:00,AETHERA agent,0,19,0,0,1,0,0,0,65.59427740492171,153,,"**What is happening now:**  
+At 12:00 UTC on 2023‑09‑12 the geomagnetic conditions are at Kp 5.3, which places the storm at NOAA level **G1 (minor)**. The solar wind is blowing at 434 km s⁻¹ and the interplanetary magnetic field Bz is –4.7 nT, with a Dst of +31 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp is expected to drop to 4.9 in 3 h, 4.7 in 6 h, 3.9 in 12 h, and reach about 3.0 by 24 h. The highest storm level in the next 24 h remains G1.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk in the data.
+
+**What this means in practice:**  
+A G1 storm can cause minor effects: low‑frequency radio navigation may be briefly disrupted and faint auroras could be visible far south (e.g., Alabama, northern California). Satellite operators should monitor but no major drag or orientation corrections are expected."
+S17,storm,2023-09-25 00:00,Plain LLM,0,18,0,0,1,0,0,0,57.18593384223922,136,,"**Space‑Weather Alert – 25 Sep 2023 00 UTC**
+
+The geomagnetic conditions are currently active. The planetary K‑index (Kp) is 5.3, and the NOAA G‑scale is at G1 (minor storm). Solar wind is fast at 437 km s⁻¹, and the interplanetary magnetic field is pointing northward (Bz ≈ +9 nT), which helps keep the disturbance moderate. The Dst index is –52 nT, confirming a weak geomagnetic storm.
+
+Forecasts show the storm will stay at least at G1 level for the next 3–12 hours, with Kp expected to drop to about 4.7 in 3 h, 4.4 in 6 h, and 3.8 in 12 h. After 24 h the activity should fall to quiet (Kp ≈ 3.1). Forecasts beyond 12 h are less reliable.
+
+**Implications:**  
+- Satellite operators should monitor for minor surface charging and possible small attitude disturbances.  
+- Students and amateur radio users may notice faint auroral displays at high latitudes.  
+
+Stay tuned for updates."
+S17,storm,2023-09-25 00:00,RAG,0,19,0,0,1,0,0,0,61.69878114842905,145,,"**What’s happening now:**  
+At 00:00 UTC on 2023‑09‑25 the geomagnetic conditions are active with Kp = 5.3 and NOAA storm level **G1** (minor). Solar wind is fast at 437 km s⁻¹, the interplanetary magnetic field Bz is +9.4 nT, and the Dst index is –52 nT.
+
+**What’s expected in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp is expected to drop to 4.7 in 3 h, 4.4 in 6 h, 3.8 in 12 h, and 3.1 by 24 h. (Forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, so no particular object is highlighted.
+
+**What this means in practice:**  
+A G1 storm can cause minor effects such as brief low‑frequency radio navigation glitches and faint auroras at mid‑latitudes. The upper atmosphere will be slightly heated, modestly increasing drag on low‑Earth‑orbit satellites, but the impact is expected to be small and to lessen as the storm subsides."
+S17,storm,2023-09-25 00:00,AETHERA agent,0,19,0,0,1,0,0,0,61.30670454545458,132,,"**What’s happening now:**  
+At 2023‑09‑25 00:00 UTC the geomagnetic conditions are at Kp 5.3, giving a NOAA storm level of **G1** (minor). Solar wind is fast at 437 km s⁻¹, the interplanetary magnetic field Bz is +9.4 nT, and the Dst index is –52 nT.
+
+**What’s expected in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp 4.7 in 3 h, 4.4 in 6 h, 3.8 in 12 h, and 3.1 in 24 h. The highest storm level expected remains G1. Forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed.
+
+**What this means in practice:**  
+A G1 storm can cause minor effects: low‑frequency radio navigation may be briefly disrupted and faint auroras could be visible far south (e.g., Alabama, northern California). Satellite operators should monitor but no major drag increase or orientation corrections are expected."
+S18,storm,2023-11-05 09:00,Plain LLM,0,17,0,0,1,0,1,0,30.490312500000044,149,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 5 Nov 2023, 09:00 UTC**
+
+The geomagnetic activity is currently at a moderate level (Kp ≈ 5.7, NOAA G1). Solar wind is fast (≈ 360 km s⁻¹) and the interplanetary magnetic field is pointing south (Bz ≈ ‑5.5 nT), conditions that can drive geomagnetic disturbances. The disturbance‑storm‑time index (Dst) is near zero, indicating no strong global storm yet, but the ongoing solar wind may still cause localized effects.
+
+Forecasts show the Kp index will stay above 4 for the next 12 hours (≈ 4.9 in 3 h, 4.8 in 6 h, 3.9 in 12 h) before easing to quiet levels (≈ 3.0) after a day. Expect possible:
+
+* Small to moderate satellite surface charging and increased drag for low‑Earth‑orbit spacecraft.  
+* Minor radio‑communication disruptions, especially on high‑frequency (HF) bands.  
+* Slightly enhanced auroral activity at mid‑latitudes.
+
+Operators should monitor spacecraft telemetry and consider precautionary measures for sensitive electronics. Students can expect visible auroras in higher latitudes tonight. Forecasts beyond 12 h have low confidence."
+S18,storm,2023-11-05 09:00,RAG,0,19,0,0,1,0,0,0,58.954810199386515,165,,"**What is happening now:**  
+At 09:00 UTC on 2023‑11‑05 the geomagnetic conditions are active with Kp = 5.7 and the NOAA storm level at **G1** (minor). Solar wind is fast (359 km s⁻¹) and the interplanetary magnetic field is southward (Bz = ‑5.5 nT), giving a near‑zero Dst (‑1 nT).
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance will weaken: Kp ≈ 4.9 in 3 h, 4.8 in 6 h, 3.9 in 12 h and 3.0 after 24 h. The strongest part of the storm is expected within the first 12 h; forecasts beyond that have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, but low‑Earth‑orbit (LEO) spacecraft are the ones that could see increased drag when the atmosphere expands.
+
+**What this means in practice:**  
+For the general public, the storm is minor—auroras may be visible far south (e.g., Alabama, northern California). Radio navigation and HF communications could experience brief interruptions, and satellite operators should monitor LEO drag and be ready to adjust orbits if needed. No major power‑grid impacts are expected."
+S18,storm,2023-11-05 09:00,AETHERA agent,0,19,0,0,1,0,0,0,66.90720588235294,157,,"**What is happening now:**  
+At 09:00 UTC on 2023‑11‑05 the geomagnetic conditions are at Kp 5.7, giving a NOAA storm level of **G1** (minor). The solar wind is blowing at 359 km s⁻¹ with an IMF Bz of –5.5 nT, and the Dst index is –1 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp ≈ 4.9 in 3 h, 4.8 in 6 h, 3.9 in 12 h, and 3.0 in 24 h. All values remain below the threshold for a higher NOAA level, so the highest level expected is still **G1**. (Forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag risk can be identified.
+
+**What this means in practice:**  
+A G1 storm may cause brief, low‑frequency radio navigation glitches and faint auroras at mid‑latitudes, but it is unlikely to affect most satellite operations or power systems. No major corrective actions are needed at this time."
+S19,storm,2023-11-22 03:00,Plain LLM,0,14,0,0,1,0,1,0,50.96448717948721,137,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 22 Nov 2023, 03:00 UTC**
+
+A moderate geomagnetic disturbance is underway. The planetary K‑index (Kp) is currently 5.0, and the NOAA G‑scale is at G1 (minor storm). Solar wind is fast (≈ 524 km/s) and the interplanetary magnetic field has a southward component (Bz ≈ ‑4.6 nT), driving the disturbance. The Dst index is –40 nT, confirming a modest ring‑current enhancement.
+
+**What to expect:**  
+- In the next 3 hours the Kp is forecast to stay around 4.6, then slowly drop to about 3.2 by 24 hours.  
+- The strongest effects are expected within the next 12 hours.
+
+**Impacts:**  
+- Satellite drag may increase slightly; monitor orbit adjustments.  
+- Low‑frequency radio and GPS accuracy could be mildly degraded.  
+- Auroras may be visible at high latitudes.
+
+**Action:** Keep an eye on real‑time alerts and be prepared for minor operational tweaks. Forecasts beyond 12 hours are less reliable."
+S19,storm,2023-11-22 03:00,RAG,0,19,0,0,1,0,0,0,58.11965116279072,175,,"**What’s happening now:**  
+At 03:00 UTC on 2023‑11‑22 the geomagnetic conditions are at Kp 5.0, which places the storm at NOAA level **G1** (minor). Solar wind is blowing fast at 524 km s⁻¹, the interplanetary magnetic field Bz is –4.6 nT, and the Dst index is –40 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show the disturbance will ease gradually: Kp ≈ 4.6 in 3 h, 4.2 in 6 h, 3.7 in 12 h, and 3.2 by 24 h. The model notes that predictions beyond 12 h have low skill, so the exact later trend is uncertain.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag‑risk targets can be named.
+
+**What this means in practice:**  
+A G1 storm can cause brief low‑frequency radio and navigation glitches and may produce auroras as far south as Alabama and northern California. The impact on low‑Earth‑orbit satellites is minor, with only a slight increase in atmospheric drag and no major orientation or charging concerns. Users can continue normal operations but should monitor for short‑term radio or navigation disturbances."
+S19,storm,2023-11-22 03:00,AETHERA agent,0,19,0,0,1,0,0,0,61.10300650054171,145,,"**What’s happening now:**  
+At 03:00 UTC on 2023‑11‑22 the geomagnetic conditions are at a NOAA G‑level **G1** (minor) with a measured Kp of 5.0. Solar wind is fast (524 km s⁻¹) and the interplanetary magnetic field Bz is –4.6 nT, giving a Dst of –40 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show the disturbance will gradually weaken: Kp ≈ 4.6 in 3 h, 4.2 in 6 h, 3.7 in 12 h, and 3.2 by 24 h. The highest storm level expected remains G1; forecasts beyond 12 h have low skill.
+
+**Objects facing the highest drag risk:**  
+No specific satellites or objects are listed as being at elevated drag risk for this event.
+
+**What this means in practice:**  
+A G1 storm may cause brief low‑frequency radio and navigation glitches, and faint auroras could be visible as far south as Alabama and northern California. Satellite operators should monitor but no major drag or orientation corrections are expected."
+S20,storm,2023-12-17 12:00,Plain LLM,0,13,0,0,1,0,1,0,43.068083714846324,147,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 12 Dec 2023 12:00 UTC**
+
+A moderate geomagnetic disturbance is underway. The current planetary K‑index (Kp) is **5.3**, and the NOAA G‑scale is **G1 (minor storm)**. Solar wind is unusually fast at **528 km s⁻¹**, and the interplanetary magnetic field has a southward component (**Bz ≈ –5 nT**), both of which help drive the disturbance. The Dst index is **–53 nT**, confirming a modest ring‑current enhancement.
+
+**What to expect:**  
+- In the next 3–6 hours the Kp is likely to stay near 5, then gradually fall to the low‑3 range over the next day.  
+- Forecasts beyond 12 hours are uncertain.
+
+**Impacts:**  
+- Satellite operators should watch for increased surface charging and possible minor attitude‑control glitches.  
+- HF radio and GPS signals may show brief degradations, especially at high latitudes.  
+- Students and hobbyists can expect modest auroras visible at mid‑latitude night skies.
+
+Stay tuned for updates and consider protective measures for sensitive equipment."
+S20,storm,2023-12-17 12:00,RAG,0,21,0,0,1,0,0,0,55.739505494505494,174,,"**What is happening now:**  
+At 12:00 UTC on 2023‑12‑17 the geomagnetic conditions are active with a Kp of 5.3 and a NOAA G‑level of **G1** (minor storm). Solar wind is fast at 528 km s⁻¹, the interplanetary magnetic field Bz is –5 nT, and the Dst index is –53 nT.
+
+**What is expected in the next 24 hours:**  
+The forecast shows the disturbance weakening: Kp is expected to drop to 4.7 in 3 h, 4.2 in 6 h, 3.6 in 12 h, and 3.3 in 24 h. The strongest activity is likely within the next 3–6 h; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, but low‑Earth‑orbit objects can experience increased drag when the atmosphere expands.
+
+**What this means in practice:**  
+A minor G1 storm can cause brief low‑frequency radio and navigation disturbances and visible aurora at lower latitudes. Satellite operators should monitor altitude loss due to higher drag and be ready to adjust orbits if needed, while power‑grid operators may see small voltage fluctuations. The situation is expected to improve over the next day."
+S20,storm,2023-12-17 12:00,AETHERA agent,0,21,0,0,1,0,0,0,57.18150684931507,152,,"**What is happening now:**  
+At 12:00 UTC on 2023‑12‑17 the space‑weather monitors show a geomagnetic storm at NOAA level **G1** (minor). The current planetary Kp index is 5.3, solar wind speed is 528 km s⁻¹, IMF Bz is –5.0 nT and Dst is –53 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts indicate the storm will weaken, with Kp dropping to 4.7 in 3 h, 4.2 in 6 h, 3.6 in 12 h and 3.3 in 24 h. The strongest conditions are expected within the next 3–6 h; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, so no particular object is highlighted.
+
+**What this means in practice:**  
+A G1 storm can cause minor disturbances to low‑frequency radio navigation and produce faint auroras at mid‑latitude locations. Satellite operators may see a slight increase in atmospheric drag for low‑Earth‑orbit craft, but no major charging or orientation issues are expected. Power‑grid impacts are unlikely."
+S21,storm,2024-03-24 12:00,Plain LLM,0,13,0,0,1,0,0,0,42.30186209439532,115,,"**Space‑Weather Alert – 12 UTC Mar 24, 2024**
+
+The geomagnetic activity is currently at **Kp = 6.0** (moderate storm) and the NOAA scale shows **G2** conditions. Solar wind is fast (≈ 534 km s⁻¹) and the interplanetary magnetic field has a small southward component (Bz ≈ ‑2.3 nT), producing a modest ring current (Dst ≈ ‑50 nT).  
+
+**What this means for you:**  
+- **Satellites:** Increased risk of surface charging and minor drag changes. Consider pausing sensitive operations and checking attitude‑control systems.  
+- **Students & hobbyists:** Aurora displays may be visible at mid‑latitudes (≈ 50° N/S).  
+
+**Short‑term outlook:** Forecasts show the storm weakening over the next day (Kp ≈ 4.7 in 3 h, dropping to ≈ 3.5 by 24 h). Forecasts beyond 12 h are less reliable.  
+
+Stay tuned to updates and protect vulnerable equipment while the disturbance subsides."
+S21,storm,2024-03-24 12:00,RAG,0,19,0,0,1,0,0,0,60.068652555498204,153,,"**What is happening now:**  
+At 12:00 UTC on 2024‑03‑24 the geomagnetic conditions are at Kp 6.0, which places the storm at NOAA level **G2** (moderate). The solar wind is blowing at 534 km s⁻¹, the interplanetary magnetic field Bz is –2.3 nT, and the Dst index is –50 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance easing: Kp ≈ 4.7 in 3 h, 4.3 in 6 h, 3.8 in 12 h, and 3.5 in 24 h. (Note: forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular asset can be singled out.
+
+**What this means in practice:**  
+A G2 storm may require ground controllers to adjust satellite orientation and may cause modest changes in atmospheric drag, making precise orbit predictions a little harder. Users of low‑frequency radio navigation might notice brief disruptions, and auroras could be visible as far south as Alabama and northern California."
+S21,storm,2024-03-24 12:00,AETHERA agent,0,19,0,0,1,0,0,0,58.70521634615386,132,,"**What is happening now:**  
+At 2024‑03‑24 12:00 UTC the geomagnetic conditions are at Kp 6.0, which places the storm at NOAA level **G2** (moderate). Solar wind is blowing at 534 km s⁻¹, the interplanetary magnetic field Bz is –2.3 nT, and the Dst index is –50 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show Kp falling to 4.7 in 3 h, 4.3 in 6 h, 3.8 in 12 h and 3.5 in 24 h. The highest level expected remains G2; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+Low‑Earth‑orbit satellites may see increased atmospheric drag during a G2 event.
+
+**What this means in practice:**  
+Satellite ground controllers may need to adjust satellite orientation and update orbit predictions because of the drag change. Users may notice occasional low‑frequency radio navigation glitches, but no severe impacts are expected."
+S22,storm,2024-04-26 15:00,Plain LLM,0,15,0,0,1,0,1,0,35.229374631268456,123,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 26 Apr 2024 15:00 UTC**
+
+A moderate geomagnetic storm is currently underway. The planetary K‑index (Kp) is 5.0 and the NOAA G‑scale is at G1, indicating a **minor storm** that can affect satellite operations and high‑latitude communications. Solar wind is fast (≈ 344 km s⁻¹) and the interplanetary magnetic field is pointing south (Bz ≈ ‑10 nT), which helps drive the disturbance. The Dst index is –41 nT, confirming a modest ring‑current enhancement.
+
+**What to expect:**  
+- **Next 3–6 hours:** Storm conditions likely to persist (Kp forecast 4.8 → 4.3).  
+- **Beyond 12 hours:** Forecast confidence drops; activity should subside (Kp ≈ 3.2 → 2.5).
+
+**Recommended actions:**  
+- Check satellite attitude‑control and power‑budget margins.  
+- Monitor high‑frequency radio links, especially at high latitudes.  
+- Be prepared for brief GPS position errors.
+
+Stay tuned for updates."
+S22,storm,2024-04-26 15:00,RAG,0,21,0,0,1,0,0,0,61.14207335710648,154,,"**What is happening now:**  
+At 2024‑04‑26 15:00 UTC the geomagnetic conditions are at Kp 5.0, which places the storm at NOAA level **G1 (minor)**. Solar wind is blowing at 344 km s⁻¹ with a southward IMF Bz of –10.2 nT, and the Dst index is –41 nT.
+
+**What is expected in the next 24 hours:**  
+The forecast shows the disturbance weakening: Kp ≈ 4.8 in 3 h, 4.3 in 6 h, 3.2 in 12 h and 2.5 in 24 h. The strongest activity is expected within the next 3–6 h; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, but low‑Earth‑orbit objects can experience increased drag when the atmosphere expands.
+
+**What this means in practice:**  
+For most users the storm is minor, but low‑frequency radio navigation may be briefly disrupted and faint auroras could be visible far south. Satellite operators should monitor drag and be ready to adjust orbits if needed, while power‑grid operators can expect no major voltage issues."
+S22,storm,2024-04-26 15:00,AETHERA agent,0,20,0,0,1,0,0,0,65.80278481012661,162,,"**What is happening now:**  
+At 2024‑04‑26 15:00 UTC the geomagnetic conditions are at Kp 5.0, which places the storm at NOAA level **G1 (minor)**. The solar wind is blowing at 344 km s⁻¹ with a southward IMF Bz of –10.2 nT, and the Dst index is –41 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp is expected to drop to 4.8 in 3 h, 4.3 in 6 h, 3.2 in 12 h, and 2.5 in 24 h. The highest storm level that may be reached in the next 24 h remains G1. (Forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk for this event.
+
+**What this means in practice:**  
+A G1 storm can cause minor effects: low‑frequency radio navigation may be briefly disturbed and faint auroras could be visible at mid‑latitude locations such as Alabama or northern California. Satellite operators should monitor but no major drag or orientation corrections are expected."
+S23,storm,2024-05-10 15:00,Plain LLM,0,29,1,0,1,0,0,0,50.312608695652216,149,these numbers are not in FACTS or REFERENCE TEXT: [18.0],"**Space‑Weather Alert – 10 May 2024, 15 UTC**
+
+A strong geomagnetic storm is underway. The planetary K‑index is now **7.7** (G3 on the NOAA scale), driven by a fast solar‑wind stream of **≈455 km s⁻¹**. The interplanetary magnetic field’s Bz component is slightly southward (‑0.6 nT), and the Dst index is modestly positive (+23 nT), indicating the main phase of the storm is already in progress.
+
+**Forecast:**  
+- In 3 h: Kp ≈ 5.6 (moderate)  
+- In 6 h: Kp ≈ 5.1  
+- In 12 h: Kp ≈ 4.4  
+- In 24 h: Kp ≈ 3.4  
+
+(Accuracy drops beyond 12 h.)
+
+**Impacts:**  
+- Satellite operators should expect increased surface charging and possible attitude‑control disturbances, especially for objects below 450 km.  
+- The following debris objects are at highest drag risk: SL‑14 DEB (317 km), CZ‑4 DEB (348 km), FENGYUN‑1C DEB (400 km), NOAA‑16 DEB (427 km), COSMOS‑2251 DEB (353 km).  
+- Radio communications and GPS accuracy may be degraded for the next 12‑18 hours.
+
+Take precautionary measures now and monitor updates frequently."
+S23,storm,2024-05-10 15:00,RAG,0,34,0,0,1,0,0,0,55.14526002166849,144,,"**What is happening now:**  
+At 2024‑05‑10 15:00 UTC the geomagnetic storm is at Kp 7.7, which places it at NOAA **G3** (strong) level. Solar wind is blowing at 455 km s⁻¹ and the interplanetary magnetic field Bz is –0.6 nT, with Dst +23 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the storm weakening: Kp 5.6 in 3 h, 5.1 in 6 h, 4.4 in 12 h, and 3.4 in 24 h. (Forecasts beyond 12 h have low skill.)
+
+**Objects facing the highest drag risk:**  
+- SL‑14 DEB (NORAD 21827, 317 km)  
+- CZ‑4 DEB (NORAD 26321, 348 km)  
+- FENGYUN 1C DEB (NORAD 31167, 400 km)  
+- NOAA 16 DEB (NORAD 41345, 427 km)  
+- COSMOS 2251 DEB (NORAD 34397, 353 km)
+
+**What this means in practice:**  
+Low‑Earth‑orbit satellites, especially the debris listed above, may experience increased atmospheric drag and lose altitude faster. Satellite operators should watch for surface charging and be ready to correct orientation or perform altitude‑maintenance maneuvers. Ground users may see occasional navigation glitches and auroras at unusually low latitudes."
+S23,storm,2024-05-10 15:00,AETHERA agent,1,34,0,0,1,0,0,0,60.19217650962182,141,,"**What is happening now** – At 2024‑05‑10 15:00 UTC the geomagnetic storm is at NOAA level **G3** (strong) with a current Kp of 7.7, solar‑wind speed 455 km s⁻¹, IMF Bz –0.6 nT and Dst +23 nT.  
+
+**What is expected in the next 24 hours** – The storm is forecast to weaken: Kp 5.6 in 3 h, 5.1 in 6 h, 4.4 in 12 h and 3.4 in 24 h (forecasts beyond 12 h have low skill).  
+
+**Which objects face the highest drag risk** – The debris pieces most exposed to increased drag are:  
+- SL‑14 DEB (NORAD 21827, 317 km)  
+- CZ‑4 DEB (NORAD 26321, 348 km)  
+- FENGYUN 1C DEB (NORAD 31167, 400 km)  
+- NOAA 16 DEB (NORAD 41345, 427 km)  
+- COSMOS 2251 DEB (NORAD 34397, 353 km)  
+
+**What this means in practice** – Low‑Earth‑orbit satellites may see higher atmospheric drag and lose altitude faster, requiring more frequent orbit‑adjustment burns. Surface charging could affect satellite electronics, and operators may need to correct orientation problems. Power‑grid operators should be prepared for possible voltage adjustments."
+S24,storm,2024-05-12 00:00,Plain LLM,0,22,0,0,1,0,0,0,47.291117647058826,159,,"**Space‑Weather Alert – 12 May 2024 (00 UTC)**  
+
+A strong geomagnetic storm is currently underway. The planetary K‑index (Kp) is 6.3 (moderate‑to‑strong), and the NOAA G‑scale rates it as **G2**. In the past 24 hours the storm peaked at Kp 9.0, the highest level of disturbance. Solar‑wind speed has surged to **938 km s⁻¹**, and the interplanetary magnetic field’s Bz component is slightly northward (+0.5 nT). The disturbance storm time index (Dst) is **–150 nT**, indicating a moderate storm.
+
+**Forecast (next 24 h):**  
+- 3 h: Kp ≈ 5.3  
+- 6 h: Kp ≈ 4.4  
+- 12 h: Kp ≈ 3.6 (lower confidence)  
+- 24 h: Kp ≈ 3.8  
+
+Storm‑level conditions are expected within the next 3 h, 6 h, and again by 24 h.  
+
+**What this means for you:**  
+- **Satellites:** Expect increased drag on low‑Earth‑orbit assets and possible surface charging; consider safe‑mode operations.  
+- **Radio users:** HF communications may be disrupted, especially on the sun‑lit side of Earth.  
+- **Students & general public:** Auroras could be visible at lower latitudes than usual.
+
+Stay tuned for updates; forecasts beyond 12 hours have low reliability."
+S24,storm,2024-05-12 00:00,RAG,0,19,0,0,1,0,0,0,55.20837197049528,149,,"**What is happening now:**  
+At 2024‑05‑12 00:00 UTC the geomagnetic conditions are moderate with Kp = 6.3 and NOAA storm level **G2**. Solar wind is very fast (938 km s⁻¹) and the interplanetary magnetic field Bz is +0.5 nT, while the Dst index is –150 nT.  
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance easing: Kp ≈ 5.3 in 3 h, 4.4 in 6 h, 3.6 in 12 h and 3.8 at 24 h. The model notes that forecasts beyond 12 h have low skill, but the trend is toward weaker activity.  
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the alert, so no particular drag‑risk targets are identified.  
+
+**What this means in practice:**  
+A G2 storm may require ground controllers to adjust satellite orientation and update orbit predictions because atmospheric drag can change. Power‑grid operators should be aware of possible minor voltage corrections, and users of low‑frequency radio navigation may notice brief disruptions."
+S24,storm,2024-05-12 00:00,AETHERA agent,0,19,0,0,1,0,0,0,55.8869285714286,177,,"**What’s happening now:**  
+At 2024‑05‑12 00:00 UTC the geomagnetic conditions are at Kp 6.3, which places the storm at NOAA level **G2** (moderate). The solar wind is blowing at 938 km s⁻¹, the interplanetary magnetic field Bz is +0.5 nT, and the Dst index is –150 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance easing: Kp ≈ 5.3 in 3 h, 4.4 in 6 h, 3.6 in 12 h, and 3.8 in 24 h. The model notes that forecasts beyond 12 h have low skill, but the trend is toward a weaker storm.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag‑risk targets can be named.
+
+**What this means in practice:**  
+A G2 moderate storm may require ground controllers to adjust satellite orientation and may cause small changes in atmospheric drag, making precise orbit predictions a bit harder. Users of low‑frequency radio navigation might notice brief disruptions, and auroras could be visible as far south as Alabama and northern California. No extreme actions are needed, but operators should monitor satellite telemetry for any needed corrections."
+S25,storm,2024-06-07 12:00,Plain LLM,0,12,0,0,1,0,0,0,40.36471590909093,130,,"**Space‑Weather Alert – 12 UTC June 7, 2024**
+
+The geomagnetic activity is currently elevated (Kp = 6.3, NOAA G2). Solar wind is fast at about 382 km s⁻¹, and the interplanetary magnetic field is near neutral (Bz ≈ +0.1 nT), giving a mild storm‑time Dst of –14 nT. Forecasts show the disturbance will ease over the next day, but moderate geomagnetic conditions (Kp ≈ 5–5.2) are expected for the next 3‑12 hours.
+
+**What this means for you**
+
+- **Satellites:** Small increases in atmospheric drag may occur; monitor orbit adjustments, especially for low‑Earth orbit assets. Radiation levels should stay within normal limits, but keep an eye on sensitive electronics.  
+- **Students & General Users:** Aurora sightings are possible at higher latitudes. No major impact on GPS or HF communications is expected, but occasional brief glitches could happen.
+
+Stay tuned for updates; forecasts beyond 12 hours have low confidence."
+S25,storm,2024-06-07 12:00,RAG,0,19,0,0,1,0,0,0,59.50086732059887,153,,"**What is happening now:**  
+At 12:00 UTC on 2024‑06‑07 the geomagnetic conditions are moderate with Kp = 6.3 and NOAA storm level **G2**. Solar wind speed is 382 km s⁻¹, IMF Bz is +0.1 nT and Dst is –14 nT.
+
+**What is expected in the next 24 hours:**  
+The forecast shows the disturbance weakening: Kp ≈ 5.2 in 3 h, 4.7 in 6 h, 4.3 in 12 h and 3.2 by 24 h. The strongest activity is expected within the next 12 hours; forecasts beyond that have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag‑risk targets can be named.
+
+**What this means in practice:**  
+A G2 moderate storm may require ground controllers to adjust satellite orientation and could introduce small changes in atmospheric drag, making precise orbit predictions a bit harder. Users of low‑frequency radio navigation might notice brief disruptions, and auroras could be visible as far south as Alabama and northern California."
+S25,storm,2024-06-07 12:00,AETHERA agent,0,20,0,0,1,0,0,0,60.20171307220389,168,,"**What is happening now:**  
+At 12:00 UTC on 2024‑06‑07 the geomagnetic conditions are at a Kp of 6.3, which places the storm at NOAA level **G2** (moderate). The solar wind is blowing at 382 km s⁻¹, the interplanetary magnetic field Bz is +0.1 nT, and the Dst index is –14 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the Kp will gradually fall: 5.2 in 3 h, 4.7 in 6 h, 4.3 in 12 h, and 3.2 by 24 h. The highest storm level expected within the next 12 h remains G2; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular asset can be singled out.
+
+**What this means in practice:**  
+A G2 moderate storm may require ground controllers to adjust satellite orientation and may introduce small changes in atmospheric drag, making precise orbit predictions a bit harder. Users of low‑frequency radio navigation could see brief disruptions, and auroras may be visible as far south as Alabama and northern California."
+S26,storm,2024-08-01 00:00,Plain LLM,0,13,0,0,1,0,0,0,46.28168965517244,119,,"**Space‑Weather Alert – 1 Aug 2024 (00 UTC)**  
+
+The geomagnetic activity is currently moderate (Kp = 5.3, NOAA G1). Solar wind is fast at 461 km s⁻¹ and the interplanetary magnetic field has a small southward component (Bz ≈ ‑2 nT), which together can enhance auroral activity and cause minor disturbances to satellite systems. The Dst index is near quiet (‑3 nT), but the forecast shows the storm level persisting for the next 3–12 hours (Kp ≈ 4.8 → 3.9).  
+
+**What this means for you:**  
+- **Satellites:** Expect possible small increases in surface charging and slight drag changes for low‑Earth‑orbit assets. No major outages are predicted, but monitor spacecraft health.  
+- **Students & hobbyists:** Auroras may be visible at higher latitudes (around 55° N/S).  
+
+The forecast beyond 12 hours is uncertain, so stay tuned for updates."
+S26,storm,2024-08-01 00:00,RAG,0,19,0,0,1,0,0,0,57.8225954620919,141,,"**What’s happening now:**  
+At 2024‑08‑01 00:00 UTC the geomagnetic conditions are at Kp 5.3, giving a NOAA G‑level of **G1** (minor). Solar wind speed is 461 km s⁻¹ and the interplanetary magnetic field Bz is –1.9 nT, with Dst at –3 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp ≈ 4.8 in 3 h, 4.4 in 6 h, 3.9 in 12 h, and 3.2 by 24 h. The forecast notes low skill beyond 12 h, but a continued drop is likely.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, so no particular object is highlighted.
+
+**What this means for you:**  
+A G1 storm can cause brief low‑frequency radio and navigation glitches and faint auroras at mid‑latitudes. It is not strong enough to create serious satellite charging or major drag increases, but operators should monitor for minor orientation adjustments and be ready for short‑term communication disturbances."
+S26,storm,2024-08-01 00:00,AETHERA agent,0,20,0,0,1,0,0,0,67.0215929739552,129,,"**What’s happening now:**  
+At 2024‑08‑01 00:00 UTC the geomagnetic conditions are at Kp 5.3, giving a NOAA storm level of **G1** (minor). Solar wind speed is 461 km s⁻¹, IMF Bz is –1.9 nT and Dst is –3 nT.
+
+**What’s expected in the next 24 hours:**  
+The forecast shows Kp falling to 4.8 in 3 h, 4.4 in 6 h, 3.9 in 12 h and 3.2 in 24 h. The highest level expected within the next 12 h remains G1; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data.
+
+**What this means in practice:**  
+A G1 storm may cause mild disturbances: low‑frequency radio navigation could be briefly affected and faint auroras might be visible at mid‑latitude locations. Satellite operators should monitor but do not need major corrective actions."
+S27,storm,2024-08-17 15:00,Plain LLM,0,17,0,0,1,0,0,0,58.504999999999995,157,,"**Space‑Weather Alert – 17 Aug 2024 15:00 UTC**
+
+The Earth’s magnetic field is currently disturbed with a Kp index of **6.3** (moderate storm) and NOAA’s G‑scale at **G2**. Solar wind is blowing fast at **434 km/s**, and the interplanetary magnetic field has a southward component of **‑8 nT**, both of which help drive geomagnetic activity. The Dst index is slightly positive (+31 nT), indicating the storm is not yet at its most intense phase.
+
+**What to expect:**  
+- In the next **3 hours** the Kp is forecast to stay around **5.6**, then drop to **5.1** in 6 h and **4.1** in 12 h.  
+- By 24 h the conditions should calm to a quiet Kp of about **3.0**.  
+
+**Impacts:**  
+- Satellite operators may see increased surface charging and occasional communication glitches.  
+- High‑frequency radio and GPS signals could experience brief disturbances.  
+- Students and hobbyists should expect brighter auroras at mid‑latitudes tonight.
+
+**Action:** Monitor your systems over the next 12 hours; forecasts beyond that have low confidence. Stay safe!"
+S27,storm,2024-08-17 15:00,RAG,0,19,0,0,1,0,0,0,56.694230769230785,159,,"**What is happening now:**  
+At 2024‑08‑17 15:00 UTC the geomagnetic conditions are elevated with Kp = 6.3 and a NOAA G‑level of **G2** (moderate storm). Solar wind is fast at 434 km s⁻¹, the interplanetary magnetic field Bz is –8.0 nT, and the Dst index is +31 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the disturbance easing: Kp ≈ 5.6 in 3 h, 5.1 in 6 h, 4.1 in 12 h, and 3.0 by 24 h. The strongest activity is therefore expected within the next 12 hours; forecasts beyond that have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed, so no particular object can be singled out.
+
+**What this means in practice:**  
+Ground controllers may need to adjust satellite orientation and update orbit predictions because atmospheric drag could be higher than usual. Users of low‑frequency radio navigation might notice brief disruptions, and auroras could be visible as far south as Alabama and northern California. Overall, impacts should lessen as the storm decays over the day."
+S27,storm,2024-08-17 15:00,AETHERA agent,0,20,0,0,1,0,0,0,54.274101731601746,159,,"**What is happening now:**  
+At 2024‑08‑17 15:00 UTC the geomagnetic conditions are moderate (NOAA G2). The planetary Kp index is 6.3, solar wind speed is 434 km s⁻¹, the interplanetary magnetic field Bz is –8 nT, and the Dst index is +31 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the Kp index falling: 5.6 in 3 h, 5.1 in 6 h, 4.1 in 12 h, and 3.0 in 24 h. The highest storm level expected within the next 12 h remains G2; beyond 12 h the forecast skill is low.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data, so no particular drag‑risk targets are identified.
+
+**What this means in practice:**  
+A G2 moderate storm may require ground controllers to adjust satellite orientation and may introduce small changes in atmospheric drag, making precise orbit predictions a bit harder. Users of low‑frequency radio navigation might notice brief disruptions, and auroras could be visible as far south as Alabama and northern California."
+S28,storm,2024-09-17 00:00,Plain LLM,0,18,0,0,1,0,0,0,49.518866396761155,157,,"**Space‑Weather Alert – 2024‑09‑17 00:00 UTC**
+
+A strong geomagnetic storm is currently underway. The planetary K‑index (Kp) is 7.3, placing us in a **G3 (strong) NOAA geomagnetic storm**. Solar wind is blasting past Earth at **~520 km s⁻¹** with a southward magnetic field component (IMF Bz) of **‑6 nT**, both of which drive the disturbance. The Dst index is modest (‑23 nT), but the high Kp indicates significant auroral activity and possible impacts on technology.
+
+**What to expect:**  
+- **Next 3 hours:** Kp still around 5.7 (moderate storm).  
+- **6 hours:** Kp drops to ~5.1.  
+- **12 hours:** Kp falls to ~4.1 (quiet to unsettled).  
+- **24 hours:** Kp near 3.3 (quiet).
+
+**Potential effects:**  
+- Satellite surface charging and increased drag for low‑Earth‑orbit craft.  
+- Possible GPS position errors and HF radio disturbances.  
+- Strong auroras visible at mid‑latitudes.
+
+**Action:** Monitor satellite health, consider adjusting orbit or payload operations, and be prepared for brief communication glitches. Forecasts beyond 12 hours are less reliable. Stay tuned for updates."
+S28,storm,2024-09-17 00:00,RAG,0,19,0,0,1,0,0,0,57.21619047619049,143,,"**What is happening now** – At 2024‑09‑17 00:00 UTC the geomagnetic activity is high: Kp = 7.3, NOAA G‑level = G3, solar wind speed = 519 km s⁻¹, IMF Bz = ‑6 nT and Dst = ‑23 nT. This is a strong storm that can cause surface charging on satellite components and increase drag on low‑Earth‑orbit (LEO) satellites.  
+
+**What is expected in the next 24 hours** – Forecasts show the storm weakening: Kp ≈ 5.7 in 3 h, 5.1 in 6 h, 4.1 in 12 h and 3.3 in 24 h. The note warns that forecasts beyond 12 h have low skill, but the trend is toward calmer conditions.  
+
+**Which objects face the highest drag risk** – LEO satellites are the most affected by the increased atmospheric density.  
+
+**What this means in practice** – Operators may need to correct satellite orientation and plan for faster orbital decay. Power‑grid managers should be ready for possible voltage corrections, and users of HF or low‑frequency radio navigation may experience intermittent disruptions."
+S28,storm,2024-09-17 00:00,AETHERA agent,0,19,0,0,1,0,0,0,57.76750000000001,145,,"**What’s happening now:**  
+At 2024‑09‑17 00:00 UTC the geomagnetic conditions are at Kp 7.3, which places the storm at NOAA level **G3** (strong). Solar wind is blowing at 519 km s⁻¹ with an IMF Bz of –6 nT and Dst –23 nT.
+
+**What to expect in the next 24 hours:**  
+The forecast shows the storm weakening: Kp 5.7 in 3 h, 5.1 in 6 h, 4.1 in 12 h and 3.3 in 24 h. All forecasts beyond 12 h have low skill, but the highest level likely remains G3 for the day.
+
+**Which objects face the highest drag risk:**  
+No specific satellites are named, but low‑Earth‑orbit (LEO) satellites are the ones that could see increased atmospheric drag.
+
+**What this means in practice:**  
+Surface charging may appear on satellite components, and LEO satellites could lose altitude faster, requiring occasional orbit‑adjustment burns. Operators may need to correct satellite orientation and be ready for brief interruptions in low‑frequency radio and satellite navigation signals."
+S29,storm,2024-10-11 00:00,Plain LLM,0,17,0,0,1,0,1,0,47.72750000000002,157,"a storm is described with a severity word stronger than G4 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 2024‑10‑11 00 UTC**
+
+A strong geomagnetic storm is underway. The current planetary K‑index (Kp) is **8.3** (extreme) and the NOAA G‑level is **G4**, indicating very active conditions. Solar wind is blasting past Earth at **~707 km s⁻¹** with a highly southward magnetic field (**Bz ≈ ‑39 nT**), driving the disturbance. The disturbance‑storm‑time index (Dst) has dropped to **‑309 nT**, confirming a severe storm.
+
+**What to expect:**  
+- In the next 3 hours the Kp will stay around **7.6** (strong).  
+- By 6 hours it should ease to **6.6**, then to **5.1** at 12 hours and **3.6** after 24 hours.  
+(Forecasts beyond 12 h are less reliable.)
+
+**Impacts:**  
+- High‑latitude satellite communications and GPS may experience outages or large errors.  
+- Low‑Earth‑orbit satellites could see increased drag and surface charging.  
+- Power‑grid operators should monitor for voltage fluctuations.
+
+**Action:**  
+- Secure sensitive satellite operations and consider safe‑mode procedures.  
+- Use alternative navigation aids if possible.  
+- Stay tuned for updates as the storm weakens over the next day."
+S29,storm,2024-10-11 00:00,RAG,0,19,0,0,1,0,0,0,54.525000000000006,164,,"**What is happening now** – At 00:00 UTC on 2024‑10‑11 the geomagnetic storm is at Kp 8.3, putting it in NOAA G‑level **G4** (severe). Solar wind is blasting past Earth at 707 km s⁻¹, the interplanetary magnetic field Bz is –39.4 nT, and the Dst index is –309 nT, indicating a very strong disturbance.
+
+**What is expected in the next 24 hours** – Forecasts show the storm weakening: Kp ≈ 7.6 in 3 h, 6.6 in 6 h, 5.1 in 12 h, and 3.6 in 24 h. (Forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk** – No specific satellites or objects are listed in the alert.
+
+**What this means in practice** – The severe G4 storm can cause surface charging on satellite components, increase drag on low‑Earth‑orbit satellites (making them lose altitude faster), and create orientation problems that may need correction. Power‑grid operators may need voltage adjustments, and low‑frequency radio and satellite navigation can be intermittently disrupted. Aurora displays are possible far south, down to the latitude of Alabama and northern California."
+S29,storm,2024-10-11 00:00,AETHERA agent,0,19,0,0,1,0,0,0,48.97612416107384,154,,"**What is happening now:**  
+At 00:00 UTC on 2024‑10‑11 the geomagnetic storm is at NOAA level **G4** (severe) with a measured Kp of **8.3**. Solar wind speed is **707 km s⁻¹**, the interplanetary magnetic field Bz is **‑39.4 nT**, and the Dst index is **‑309 nT**.  
+
+**What is expected in the next 24 hours:**  
+Forecasts show the storm weakening: Kp ≈ 7.6 in 3 h, 6.6 in 6 h, 5.1 in 12 h, and 3.6 in 24 h. The highest level expected within the next day remains **G4**, but confidence drops after 12 h.  
+
+**Which objects face the highest drag risk:**  
+Low‑Earth‑orbit satellites are most vulnerable to increased atmospheric drag as the heated upper atmosphere expands.  
+
+**What this means in practice:**  
+Satellite operators should prepare for faster orbital decay and possible orientation corrections. Power‑grid managers may need voltage adjustments, and users of low‑frequency radio or satellite navigation could experience intermittent disruptions. Aurora displays may be visible far south, down to the latitude of Alabama and northern California."
+S30,storm,2024-12-17 03:00,Plain LLM,0,13,0,0,1,0,1,0,41.19554054054058,152,"a storm is described with a severity word stronger than G1 (minor=G1, moderate=G2, strong=G3, severe=G4, extreme=G5)","**Space‑Weather Alert – 17 Dec 2024 03:00 UTC**
+
+A moderate geomagnetic disturbance is underway. The planetary K‑index (Kp) is currently 5.3, placing us in the **G1 (minor) storm** category. Solar wind is unusually fast at **384 km s⁻¹**, and the interplanetary magnetic field is pointing southward (**Bz = ‑6.5 nT**), both of which help drive the disturbance. The Dst index is modestly negative (‑25 nT), confirming a mild ring‑current enhancement.
+
+**What this means for you**
+
+- **Satellites:** Expect a slightly higher risk of surface charging and minor drag changes. No immediate shutdowns are required, but monitor spacecraft health and consider postponing sensitive maneuvers.
+- **Students & General Users:** Aurora lights may be visible at higher latitudes and possibly down to mid‑latitudes on clear nights.
+
+**Forecast:** Kp is expected to fall to about 3.2–4.3 over the next 24 hours, with the strongest activity likely within the next 3 hours. Forecasts beyond 12 hours are less reliable.
+
+Stay tuned to updates and take precautionary measures as needed."
+S30,storm,2024-12-17 03:00,RAG,0,16,0,0,1,0,0,0,55.40350000000001,153,,"**What’s happening now:**  
+At 03:00 UTC on 2024‑12‑17 the geomagnetic conditions are at Kp 5.3, which places the storm at NOAA level **G1 (minor)**. Solar wind is blowing at 384 km s⁻¹ and the interplanetary magnetic field Bz is –6.5 nT, giving a Dst of –25 nT.
+
+**What’s expected in the next 24 hours:**  
+Forecasts show the disturbance weakening: Kp is expected to drop to about 4.3 in 3 h, 3.7 in 6 h, and settle near 3.2 for the rest of the day. The forecast note warns that predictions beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+Low‑Earth‑orbit (LEO) satellites are the only class mentioned as potentially experiencing increased atmospheric drag when the upper atmosphere expands.
+
+**What this means in practice:**  
+For most users the impact will be minor – occasional low‑frequency radio or navigation glitches and faint auroras may be seen at mid‑latitude locations. Satellite operators should monitor LEO drag but no major corrections are expected."
+S30,storm,2024-12-17 03:00,AETHERA agent,0,16,0,0,1,0,0,0,62.054582560296865,149,,"**What’s happening now:**  
+At 03:00 UTC on 2024‑12‑17 the geomagnetic conditions are at a NOAA G‑level **G1** (minor) with a measured Kp of 5.3. Solar wind speed is 384 km s⁻¹, the interplanetary magnetic field Bz is –6.5 nT, and the Dst index is –25 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show the Kp index falling to about 3.2 by 12 h and staying near 3.2 through 24 h. The only storm level that could be reached within the next 3 h is still G1; forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk in the data.
+
+**What this means in practice:**  
+A G1 storm may cause mild disturbances: low‑frequency radio navigation could be briefly affected and faint auroras might be visible at mid‑latitude locations. Satellite operators should monitor but no major drag or orientation corrections are expected."
+S31,quiet,2022-03-17 12:00,Plain LLM,0,11,0,0,1,0,0,0,47.04293960244652,112,,"**Space‑Weather Alert – 12 UTC Mar 17 2022**
+
+Current conditions are very quiet. The planetary K‑index (Kp) is only 0.7 and the NOAA G‑level is “none” – well below storm thresholds. Solar wind is moderate at 364 km s⁻¹, and the interplanetary magnetic field’s Bz component is slightly southward (‑0.5 nT), which is too weak to drive significant geomagnetic activity. The disturbance storm‑time index (Dst) sits at –12 nT, indicating only a very mild disturbance.
+
+Forecasts for the next 24 hours show Kp staying low (1.2–1.4) and no geomagnetic storm is expected. Note that predictions beyond 12 hours have low confidence, but even the best‑case outlook remains quiet.
+
+**Impact:** No operational concerns for satellites, GPS, or radio communications. Normal activities can continue."
+S31,quiet,2022-03-17 12:00,RAG,0,18,0,0,1,0,0,0,68.08847902097904,147,,"**What is happening now:**  
+At 12:00 UTC on 2022‑03‑17 the geomagnetic conditions are quiet. The current Kp index is 0.7 and the NOAA storm level is **none (below storm level)**. Solar wind speed is 364 km s⁻¹, IMF Bz is –0.5 nT and Dst is –12 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show a modest rise in activity: Kp ≈ 1.2 for the next 12 hours and 1.4 at 24 hours. The maximum Kp in the past 24 hours was 2.3. A geomagnetic storm is **not expected in the next 24 hours**, and forecasts beyond 12 hours have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk.
+
+**What this means in practice:**  
+Atmospheric density will remain near normal, so low‑Earth‑orbit satellites should not experience increased drag or altitude loss. Operators can continue routine monitoring; no special orbit‑adjustment planning is needed at this time."
+S31,quiet,2022-03-17 12:00,AETHERA agent,0,14,0,0,1,0,0,0,66.04770083932857,142,,"**What is happening now:**  
+At 12:00 UTC on 2022‑03‑17 the geomagnetic conditions are quiet. The current NOAA G‑level is **none (below storm level)**, with a Kp index of 0.7 and a Dst of –12 nT. Solar wind speed is 364 km s⁻¹ and the interplanetary magnetic field Bz is –0.5 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show Kp staying low (1.2–1.4) and the NOAA note says a storm level is **not expected in the next 24 hours**. Forecast skill drops after 12 hours, but the trend remains calm.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk.
+
+**What this means in practice:**  
+Satellite operators can continue normal monitoring; orbit predictions should remain accurate and no special drag‑mitigation actions are needed. If any minor orbit adjustments are planned, they can wait until after the quiet period."
+S32,quiet,2022-09-21 12:00,Plain LLM,0,11,0,0,1,0,0,0,52.61256289308179,108,,"**Space‑Weather Alert – 12 UTC 21 Sep 2022**
+
+Current conditions are very quiet. The planetary K‑index (Kp) is only **1.0**, and the NOAA G‑level is “none” – well below storm thresholds. Solar wind is fast (≈ 470 km s⁻¹) but the interplanetary magnetic field Bz is positive (+1.7 nT), so it is not driving geomagnetic activity. The disturbance storm‑time index (Dst) is at 0 nT, indicating no ring‑current buildup.
+
+Forecasts show only a slight rise: Kp ≈ 1.3–1.5 over the next 24 hours, and the note warns that predictions beyond 12 h have low confidence. **No geomagnetic storm is expected in the next day.** Satellite operators can continue normal operations; students can expect calm auroral conditions. Stay tuned for any updates."
+S32,quiet,2022-09-21 12:00,RAG,0,19,0,0,1,0,0,0,67.56072495849477,143,,"**What’s happening now:**  
+At 12:00 UTC on 2022‑09‑21 the geomagnetic conditions are quiet. The current Kp is 1.0 and the NOAA G‑level is *none (below storm level)*. Solar wind speed is 469 km s⁻¹, IMF Bz is +1.7 nT and Dst is 0 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show only a slight rise in activity: Kp 1.3 in 3 h, 1.4 in 6 h and 12 h, and 1.5 at 24 h. The forecast note warns that predictions beyond 12 h have low skill, but a geomagnetic storm is *not expected in the next 24 hours*.
+
+**Objects facing the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk.
+
+**What this means in practice:**  
+Atmospheric density will remain normal, so low‑Earth‑orbit satellites should not experience increased drag or altitude loss. Operators can continue routine monitoring and do not need to plan emergency orbit corrections."
+S32,quiet,2022-09-21 12:00,AETHERA agent,0,20,0,0,1,0,0,0,65.08691176470592,137,,"**What’s happening now:**  
+At 12:00 UTC on 2022‑09‑21 the geomagnetic conditions are quiet. The current Kp is 1.0 and the NOAA geomagnetic storm level is **none (below storm level)**. Solar wind speed is 469 km s⁻¹, IMF Bz is +1.7 nT and Dst is 0 nT.
+
+**What’s expected in the next 24 hours:**  
+Forecasts show Kp staying low, rising only to 1.5 by 24 h (3‑h: 1.3, 6‑h: 1.4, 12‑h: 1.4). The “storm level expected within” field says a storm is **not expected in the next 24 hours**. Forecast skill drops after 12 h, but all values remain well below storm thresholds.
+
+**Objects facing the highest drag risk:**  
+No low‑Earth‑orbit satellites are listed as being at increased drag risk.
+
+**What this means in practice:**  
+Satellite operators can continue normal monitoring. Orbit predictions remain reliable, and no special maneuver planning is needed. Expect normal charging and orientation conditions for spacecraft."
+S33,quiet,2022-12-17 12:00,Plain LLM,0,14,0,0,1,0,0,0,53.456271186440716,120,,"**Space‑Weather Alert – 12 Dec 2022 12:00 UTC**
+
+Current conditions are very quiet. The planetary K‑index (Kp) is 0.0 and the NOAA G‑level is “none,” meaning no geomagnetic storm is present. In the past 24 hours the highest Kp reached only 1.7, well below the storm threshold. Solar‑wind speed is moderate at about 300 km s⁻¹, and the interplanetary magnetic field Bz is near zero (‑0.2 nT), so there is little chance of energy entering Earth’s magnetosphere. The Dst index is +6 nT, confirming a calm magnetosphere.
+
+Forecasts show a gentle rise, with Kp expected to be 0.6–1.4 over the next 24 hours. No geomagnetic storm is expected, and the forecast beyond 12 hours has low confidence.
+
+**Impact:** No operational concerns for satellites, GPS, or radio communications. Normal activities can continue."
+S33,quiet,2022-12-17 12:00,RAG,0,22,0,0,1,0,0,0,70.61303463203464,160,,"**What is happening now:**  
+At 12:00 UTC on 2022‑12‑17 the geomagnetic conditions are very quiet. The Kp index is 0.0, the NOAA storm level is *none (below storm level)*, the solar wind is blowing at 298 km s⁻¹, the IMF Bz is –0.2 nT and the Dst is +6 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show a gentle rise in activity: Kp ≈ 0.6 in 3 h, 0.8 in 6 h, 1.1 in 12 h and 1.4 in 24 h. The maximum Kp in the past 24 h was only 1.7, and a geomagnetic storm is *not expected in the next 24 hours*. (Forecasts beyond 12 h have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed as being at high drag risk.
+
+**What this means in practice:**  
+The upper atmosphere will stay calm, so low‑Earth‑orbit satellites will not experience increased drag or rapid altitude loss. Operators do not need to adjust orbits or worry about charging or orientation problems, but normal routine monitoring should continue."
+S33,quiet,2022-12-17 12:00,AETHERA agent,1,21,0,0,1,0,0,0,68.95971250000002,126,,"**What is happening now:**  
+At 12:00 UTC on 2022‑12‑17 the geomagnetic environment is quiet. The observed Kp index is 0.0 and the NOAA storm level is **none (below storm level)**. Solar‑wind speed is 298 km s⁻¹, IMF Bz = ‑0.2 nT and Dst = +6 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show only a slight rise: Kp ≈ 0.6 in 3 h, 0.8 in 6 h, 1.1 in 12 h and 1.4 in 24 h. The maximum Kp in the past 24 h was 1.7. No geomagnetic storm (G‑level ≥ G1) is expected, and forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No satellites or objects are listed as having high drag risk.
+
+**What this means in practice:**  
+Space weather is calm. Satellite operators can continue normal orbit monitoring and routine operations without special precautions or emergency orbit‑adjustment plans."
+S34,quiet,2023-11-03 12:00,Plain LLM,0,10,0,0,1,0,0,0,45.414940711462435,118,,"**Space‑Weather Alert – 12 UTC Nov 3, 2023**
+
+Current conditions are very quiet. The planetary K‑index (Kp) is only 0.7 and the NOAA G‑level is “none” – well below storm thresholds. Solar wind is moderate at 341 km s⁻¹, and the interplanetary magnetic field’s Bz component is slightly southward (‑0.8 nT), which is not strong enough to drive geomagnetic activity. The disturbance storm‑time index (Dst) sits at –2 nT, indicating no significant ring‑current buildup.
+
+Forecasts show a gentle rise: Kp is expected to reach about 1.3 by 24 hours, still far from storm levels. No geomagnetic storm is expected in the next day, and predictions beyond 12 hours have low confidence.
+
+**Impact:** No operational concerns for satellites, radio communications, or navigation systems at this time. Continue routine monitoring."
+S34,quiet,2023-11-03 12:00,RAG,0,21,0,0,1,0,0,0,64.77573873873877,150,,"**What’s happening now:**  
+At 12:00 UTC on 2023‑11‑03 the geomagnetic conditions are very quiet. The planetary Kp index is 0.7 and the NOAA geomagnetic storm level is *none (below storm level)*. Solar wind is blowing at 341 km s⁻¹, the interplanetary magnetic field Bz is –0.8 nT, and the Dst index is –2 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show Kp staying low, rising only to 1.3 by the end of the day (3 h: 0.7, 6 h: 0.8, 12 h: 1.0, 24 h: 1.3). A storm level is *not expected in the next 24 hours*, and forecasts beyond 12 h have low skill.
+
+**Objects facing the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk.
+
+**What this means for you:**  
+The upper atmosphere will not heat or expand noticeably, so low‑Earth‑orbit satellites will experience normal drag and stable orbits. Satellite operators can continue routine monitoring; no special orbit‑adjustment planning is needed at this time."
+S34,quiet,2023-11-03 12:00,AETHERA agent,1,14,0,0,1,0,0,0,64.83946153846156,150,,"**What is happening now:**  
+At 12:00 UTC on 2023‑11‑03 the geomagnetic conditions are quiet. The Kp index is 0.7 and the NOAA geomagnetic storm level is **none (below storm level)**. Solar wind speed is 341 km s⁻¹, IMF Bz is –0.8 nT and Dst is –2 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show a slow rise, with Kp reaching only 1.3 by the 24‑hour mark. The “storm_level_expected_within” field says a storm is **not expected in the next 24 hours**. (Forecasts beyond 12 h have low skill, so confidence is limited.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk.
+
+**What this means in practice:**  
+Because the storm level stays below G1, the upper atmosphere will not heat or expand noticeably. Low‑Earth‑orbit satellites will experience normal drag, and operators do not need to alter orbit‑monitoring routines or plan corrective maneuvers. Continue routine tracking as usual."
+S35,quiet,2023-12-22 12:00,Plain LLM,0,13,0,0,1,0,0,0,61.71538461538461,128,,"**Space‑Weather Alert – 12 Dec 2023 12:00 UTC**
+
+Current conditions are very quiet. The planetary K‑index (Kp) is 0.0, and NOAA’s geomagnetic storm scale shows “none” – well below any storm level. In the past 24 hours the highest Kp was only 1.3, and the Dst index sits at –5 nT, indicating no significant disturbance.
+
+Solar wind is flowing at about 327 km s⁻¹ with a modestly positive IMF Bz of +2.9 nT, both of which are typical for calm space weather. Forecasts suggest a slight rise, reaching Kp ≈ 1.6 by 24 hours, but this is still well under storm thresholds. Note that predictions beyond 12 hours have low confidence.
+
+**Impact:** No expected effects on satellite operations, GPS, or radio communications. No protective actions are needed. Stay tuned for updates, but conditions should remain benign for the next day."
+S35,quiet,2023-12-22 12:00,RAG,0,20,0,1,1,0,0,0,63.115168918918926,151,these Kp values do not match FACTS: [2.0],"**What’s happening now:**  
+At 12:00 UTC on 22 Dec 2023 the geomagnetic conditions are quiet. The Kp index is 0.0 and the NOAA storm level is *none (below storm level)*. Solar wind is blowing at 327 km s⁻¹, the interplanetary magnetic field Bz is +2.9 nT, and the Dst index is –5 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show a gradual rise in geomagnetic activity: Kp ≈ 0.5 in 3 h, 0.8 in 6 h, 1.1 in 12 h and 1.6 in 24 h. The maximum Kp in the past 24 h was 1.3. No storm‑level (G‑level ≥ G1) event is expected, and forecasts beyond 12 h have low skill.
+
+**Objects facing the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk.
+
+**What this means for you:**  
+With conditions well below storm thresholds, low‑Earth‑orbit satellites will not experience increased atmospheric drag or orientation problems. Operators can continue normal monitoring; no special orbit‑adjustment planning is needed at this time."
+S35,quiet,2023-12-22 12:00,AETHERA agent,1,18,0,0,1,0,0,0,69.3712540792541,147,,"**What’s happening now:**  
+At 12:00 UTC on 22 Dec 2023 the geomagnetic environment is quiet. The Kp index is 0.0 and the NOAA storm level is **none (below storm level)**. Solar wind speed is 327 km s⁻¹, IMF Bz is +2.9 nT, and Dst is –5 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show Kp slowly rising to 1.6 by the end of the period (0.5 in 3 h, 0.8 in 6 h, 1.1 in 12 h). This stays far below the G1 threshold (Kp 5). Forecasts beyond 12 h have low skill, but even the best estimate does not reach storm level.
+
+**Objects facing the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk.
+
+**What this means for you:**  
+With conditions below storm level, low‑Earth‑orbit satellites will not see increased atmospheric drag or orientation issues. Satellite operators can continue normal monitoring and do not need to plan special orbit‑adjustment maneuvers."
+S36,quiet,2024-01-23 12:00,Plain LLM,0,11,0,0,1,0,0,0,55.25384615384618,118,,"**Space‑Weather Alert – 12 UTC 23 Jan 2024**
+
+Current conditions are very quiet. The planetary K‑index (Kp) is only **1.3**, and the NOAA G‑level is “none” – well below storm thresholds. Solar wind is flowing fast at **417 km s⁻¹**, but the interplanetary magnetic field’s Bz component is slightly northward (**+0.9 nT**), which does not favor strong coupling with Earth’s magnetosphere. The disturbance storm time index (Dst) is a mild **‑3 nT**, indicating no significant ring‑current buildup.
+
+Forecasts for the next 24 hours keep Kp around **2.0–2.2**, and the note warns that predictions beyond 12 hours have low confidence. **No geomagnetic storm is expected** in the coming day.
+
+*Impact:* Satellite drag, communications, and navigation systems should remain normal. No special protective actions are needed. Stay tuned for updates."
+S36,quiet,2024-01-23 12:00,RAG,0,18,0,0,1,0,0,0,70.70434451901568,153,,"**What is happening now:**  
+At 12:00 UTC on 2024‑01‑23 the geomagnetic conditions are quiet. The current Kp index is 1.3 and the NOAA geomagnetic storm level is *none (below storm level)*. Solar wind speed is 417 km s⁻¹, IMF Bz is +0.9 nT and Dst is –3 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show Kp staying low, rising only to about 2.0–2.2 over the next 12 hours and to 2.1 at 24 hours. A storm level is *not expected in the next 24 hours*. (Forecasts beyond 12 hours have low skill.)
+
+**Which objects face the highest drag risk:**  
+No specific satellites are listed as being at high drag risk.
+
+**What this means in practice:**  
+With Kp well below the G1 threshold (Kp 5), the upper atmosphere will not heat or expand noticeably. Low‑Earth‑orbit satellites should experience normal drag, and operators do not need to adjust orbit predictions or plan corrective maneuvers at this time. Monitoring can continue at routine levels."
+S36,quiet,2024-01-23 12:00,AETHERA agent,0,17,0,0,1,0,0,0,66.88649256900212,161,,"**What is happening now:**  
+At 12:00 UTC on 2024‑01‑23 the geomagnetic conditions are quiet. The current Kp index is 1.3 and the NOAA geomagnetic storm level is **none (below storm level)**. Solar wind is blowing at 417 km s⁻¹, the interplanetary magnetic field Bz is +0.9 nT, and the Dst index is –3 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show Kp staying low, rising only to about 2.0–2.2 over the next 12 hours and then to 2.1 at 24 hours. The forecast note warns that predictions beyond 12 hours have low skill, but all values remain well below the storm threshold. A storm level is **not expected in the next 24 hours**.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk.
+
+**What this means in practice:**  
+Satellite operators do not need to take special actions now. Orbit predictions should remain accurate, and there is no need for emergency attitude or orbit‑correction maneuvers. Normal monitoring can continue."
+S37,quiet,2024-04-12 12:00,Plain LLM,0,11,0,0,1,0,0,0,50.71762820512822,129,,"**Space‑Weather Alert – 12 Apr 2024 12:00 UTC**
+
+Current conditions are very quiet. The planetary K‑index (Kp) is 1.0, well below the level that can affect satellites or radio communications. NOAA’s G‑level is “none,” meaning no geomagnetic storm is present. The solar wind is flowing at a moderate 389 km s⁻¹, and the interplanetary magnetic field’s Bz component is a weak +0.7 nT, which does not favor strong coupling with Earth’s magnetosphere. The Dst index is +5 nT, also indicating calm conditions.
+
+Forecasts show only a slight rise, with Kp expected to reach about 1.5 in the next 24 hours. No geomagnetic storm is expected during this period, and forecasts beyond 12 hours have low confidence.
+
+**Impact:** No expected disruptions to satellite operations, GPS, or HF radio. Continue normal activities, but stay tuned to updates for any sudden changes."
+S37,quiet,2024-04-12 12:00,RAG,0,22,0,0,1,0,0,0,65.5005523672884,170,,"**What is happening now:**  
+At 12:00 UTC on 2024‑04‑12 the geomagnetic conditions are quiet. The current Kp index is 1.0 and the NOAA storm level is **none (below storm level)**. Solar wind is flowing at 389 km s⁻¹, the interplanetary magnetic field Bz is +0.7 nT, and the Dst index is +5 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show a very gradual rise in activity: Kp = 1.0 (3 h), 1.1 (6 h), 1.2 (12 h) and 1.5 (24 h). The maximum Kp in the past 24 h was only 2.3, and a geomagnetic storm is **not expected in the next 24 hours**. Forecast skill drops after 12 h, so later values are less certain.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk.
+
+**What this means in practice:**  
+The upper atmosphere will stay at normal density, so low‑Earth‑orbit satellites will not experience increased drag or rapid altitude loss. Operators do not need to adjust orbit predictions or plan corrective maneuvers at this time. Monitoring can remain at routine levels."
+S37,quiet,2024-04-12 12:00,AETHERA agent,1,21,0,0,1,0,0,0,68.29031250000003,144,,"**What is happening now:**  
+At 12:00 UTC on 2024‑04‑12 the geomagnetic environment is quiet. The Kp index is 1.0 and the NOAA storm level is **none (below storm level)**. Solar‑wind speed is 389 km s⁻¹, IMF Bz +0.7 nT and Dst +5 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show a slow rise: Kp = 1.0 (3 h), 1.1 (6 h), 1.2 (12 h) and 1.5 (24 h). The note warns that forecasts beyond 12 h have low skill, but even the 24‑hour value stays far below storm thresholds. A geomagnetic storm is **not expected in the next 24 hours**.
+
+**Which objects face the highest drag risk:**  
+Because the storm level remains below G1, no low‑Earth‑orbit satellites have an increased drag risk.
+
+**What this means in practice:**  
+Satellite operators can keep normal monitoring. Orbit predictions stay reliable and no special orbit‑correction maneuvers are needed. The space environment is calm, with no concern for surface charging or orientation problems."
+S38,quiet,2024-06-12 12:00,Plain LLM,0,10,0,0,1,0,0,0,47.15275119617226,117,,"**Space‑Weather Alert – 12 June 2024, 12 UTC**
+
+Current conditions are very quiet. The planetary K‑index (Kp) is 1.0 (the lowest level) and the NOAA G‑scale shows “none” – no geomagnetic storm is present. Solar wind is flowing at a moderate 356 km s⁻¹, and the interplanetary magnetic field’s Bz component is slightly southward at –2.6 nT, which is too weak to drive any significant activity. The Dst index is –7 nT, also indicating a calm magnetosphere.
+
+Forecasts for the next 24 hours remain low: Kp is expected to rise only to about 1.3, well below storm thresholds. No geomagnetic storm is expected, and any changes beyond 12 hours have low confidence.
+
+**Impact:** No expected disruptions for satellite operations, GPS, or radio communications. Continue normal monitoring."
+S38,quiet,2024-06-12 12:00,RAG,0,21,0,0,1,0,0,0,73.41295454545455,150,,"**What is happening now:**  
+At 12:00 UTC on 2024‑06‑12 the geomagnetic conditions are very quiet. The Kp index is 1.0, the NOAA storm level is *none (below storm level)*, the solar wind speed is 356 km s⁻¹, the IMF Bz is –2.6 nT and Dst is –7 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show only a slight rise, with Kp reaching 1.3 by the end of the day (3‑hour forecast 1.0, 6‑hour 1.1, 12‑hour 1.2, 24‑hour 1.3). A geomagnetic storm is *not expected in the next 24 hours*, and forecasts beyond 12 hours have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as being at high drag risk.
+
+**What this means in practice:**  
+The upper atmosphere will stay calm, so low‑Earth‑orbit satellites will not experience increased drag or rapid altitude loss. Operators do not need to adjust orbit predictions or plan corrective maneuvers at this time."
+S38,quiet,2024-06-12 12:00,AETHERA agent,1,13,0,0,1,0,0,0,59.656833435021355,151,,"**What is happening now:**  
+At 12:00 UTC on 2024‑06‑12 the geomagnetic environment is quiet. The observed Kp index is 1.0, the NOAA geomagnetic storm level is *none (below storm level)*, solar wind speed is 356 km s⁻¹, IMF Bz is –2.6 nT, and Dst is –7 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show a very slight increase, with Kp rising to 1.3 by the 24‑hour mark. The NOAA level stays *none (below storm level)*, and a geomagnetic storm (G‑level ≥ G1) is not expected. Note that forecasts beyond 12 hours have low skill, so confidence drops for the later period.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed as having elevated drag risk.
+
+**What this means in practice:**  
+Air density and drag on low‑Earth‑orbit satellites will remain normal, so orbit predictions stay reliable. Satellite operators do not need special mitigation actions, but routine monitoring of orbits should continue as usual."
+S39,quiet,2024-08-08 12:00,Plain LLM,0,12,0,0,1,0,0,0,51.44878623188407,116,,"**Space‑Weather Alert – 12 UTC 08 Aug 2024**
+
+Current conditions are very quiet. The planetary K‑index (Kp) is only 1.0 and NOAA’s G‑level is “none” – well below storm thresholds. Solar wind is moderate at 390 km s⁻¹, and the interplanetary magnetic field is northward (Bz +5 nT), which does not favor geomagnetic activity. The disturbance storm‑time index (Dst) is a benign +9 nT.
+
+Forecasts show a gradual rise, reaching Kp ≈ 2.9 in 12 hours and staying near 2.8 after 24 hours. This level is still considered quiet to unsettled and does **not** meet the criteria for a geomagnetic storm. Note that predictions beyond 12 hours have low confidence.
+
+**Impact:** No expected disruptions for satellite operations, GPS, or radio communications. Continue normal monitoring, but no special precautions are needed."
+S39,quiet,2024-08-08 12:00,RAG,0,21,0,0,1,0,0,0,62.511021671826654,159,,"**What is happening now:**  
+At 12:00 UTC on 2024‑08‑08 the geomagnetic conditions are quiet. The current Kp index is 1.0 and the NOAA geomagnetic storm level is **none (below storm level)**. Solar wind is blowing at 390 km s⁻¹, the interplanetary magnetic field Bz is +5.3 nT, and the Dst index is +9 nT.
+
+**What is expected in the next 24 hours:**  
+Forecasts show Kp rising modestly – 1.8 in 3 h, 2.4 in 6 h, 2.9 in 12 h, and 2.8 at 24 h. The maximum Kp in the past 24 h was 2.7. No storm‑level activity (G‑level ≥ G1) is expected, and forecasts beyond 12 h have low skill.
+
+**Which objects face the highest drag risk:**  
+No specific satellites or objects are listed in the data.
+
+**What this means in practice:**  
+The upper atmosphere will not heat or expand significantly, so low‑Earth‑orbit satellites will experience normal drag and stable orbits. Operators do not need to adjust orbit predictions or plan corrective maneuvers at this time. Monitoring can continue at routine levels."
+S39,quiet,2024-08-08 12:00,AETHERA agent,1,21,0,0,1,0,0,0,68.88079970472441,134,,"**What is happening now** – At 12:00 UTC on 2024‑08‑08 the geomagnetic conditions are quiet. The Kp index is 1.0 and the NOAA storm level is **none (below storm level)**. Solar wind speed is 390 km s⁻¹, IMF Bz is +5.3 nT, and Dst is +9 nT.
+
+**What is expected in the next 24 hours** – Forecasts show Kp rising only to about 2.8 (3‑h 1.8, 6‑h 2.4, 12‑h 2.9, 24‑h 2.8). This stays well below the Kp 5 threshold for a G1 storm, and forecasts beyond 12 h have low skill. No geomagnetic storm is expected.
+
+**Which objects face the highest drag risk** – Because the storm level remains below G1, low‑Earth‑orbit satellites do not face any increased drag risk.
+
+**What this means in practice** – Satellite operators can continue normal monitoring. Orbit predictions should stay accurate, and no special maneuvers or orientation corrections are needed."
+S40,quiet,2024-10-05 12:00,Plain LLM,0,20,1,0,1,0,0,0,61.1622268907563,116,these numbers are not in FACTS or REFERENCE TEXT: [2.5],"**Space‑Weather Alert – 5 Oct 2024, 12 UTC**
+
+Current conditions are quiet. The planetary K‑index (Kp) is 1.7, well below the level that can affect satellite operations. The NOAA G‑scale shows “none” (no geomagnetic storm). In the past 24 hours the highest Kp reached only 3.0, still a minor disturbance.
+
+Solar wind is flowing at 387 km s⁻¹ with a slightly northward IMF Bz (+2.1 nT), and the Dst index is a benign +13 nT. Forecasts for the next 24 hours keep Kp under 2.5 (3 h: 1.8, 6 h: 2.0, 12 h: 2.3, 24 h: 2.2). No geomagnetic storm is expected, and predictions beyond 12 hours have low confidence.
+
+**Impact:** No expected disruptions to satellite communications, GPS, or power systems. Continue normal operations, but keep an eye on updates if solar activity changes."
+S40,quiet,2024-10-05 12:00,RAG,0,16,0,0,1,0,0,0,62.87423076923076,156,,"**What’s happening now:**  
+At 12:00 UTC on 2024‑10‑05 the geomagnetic conditions are quiet. The Kp index is 1.7 and the NOAA storm level is **none (below storm level)**. Solar wind is blowing at 387 km s⁻¹, the interplanetary magnetic field Bz is +2.1 nT, and the Dst index is +13 nT.
+
+**What to expect in the next 24 hours:**  
+Forecasts show a modest rise, with Kp reaching 2.3 by 12 h and staying around 2.2 at 24 h. The “storm_level_expected_within” field says a geomagnetic storm is **not expected in the next 24 hours**. Forecast skill drops after 12 h, so the later numbers are less certain.
+
+**Objects at highest drag risk:**  
+No low‑Earth‑orbit satellites are listed as being at elevated drag risk, and the forecast does not indicate a storm that would increase atmospheric density.
+
+**What this means for you:**  
+Space weather is calm, so satellite operators can keep normal monitoring routines. Orbit predictions remain reliable, and no special maneuver planning is needed at this time."
+S40,quiet,2024-10-05 12:00,AETHERA agent,1,22,0,0,1,0,0,0,65.995157390511,142,,"**What’s happening now:**  
+At 12:00 UTC on 2024‑10‑05 the geomagnetic conditions are quiet. The planetary Kp index is **1.7** and the NOAA storm level is **none (below storm level)**. Solar wind speed is **387 km s⁻¹**, IMF Bz is **+2.1 nT**, and Dst is **+13 nT**.
+
+**What to expect in the next 24 hours:**  
+Forecasts show a modest rise: Kp = 1.8 in 3 h, 2.0 in 6 h, 2.3 in 12 h, and 2.2 at 24 h. The highest Kp recorded in the past 24 h was **3.0**. No geomagnetic storm (G‑level ≥ 1) is expected, and forecasts beyond 12 h have low skill.
+
+**Objects at highest drag risk:**  
+No satellites are listed as being at elevated drag risk under these conditions.
+
+**What this means for you:**  
+The upper atmosphere will not heat or expand noticeably, so low‑Earth‑orbit satellites will experience normal drag and stable orbits. Satellite operators can continue routine monitoring; no special orbit‑adjustment planning is needed."

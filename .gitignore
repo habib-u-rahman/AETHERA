@@ -1,6 +1,41 @@
-data/
-results/
+# Secrets
+.env
+
+# Raw data (large, re-downloadable via code/01_download_omni.py and code/03_download_tles.py
+# or code/15_more_storms.py - see README for the exact commands)
+data/raw/
+
+# Cleaned data files over ~50 MB (re-derivable from data/raw/ via code/02_clean_omni.py and
+# code/04_clean_tles.py or code/15_more_storms.py). Listed explicitly since .gitignore has no
+# size predicate; these are the only data/clean/ files currently over that threshold.
+data/clean/tle_2022_starlink.csv
+data/clean/tle_2023_april.csv
+data/clean/tle_2024_gannon.csv
+data/clean/tle_2024_october.csv
+data/clean/tle_2025_november.csv
+
+# Large trained-model binaries (re-trainable via code/06_rq1_forecast.py / code/10_live_agent.py;
+# the live RF is rebuilt automatically the first time code/10_live_agent.py runs)
+*.joblib
+*.keras
+
+# Human-rating study materials - contains a de-blinding key not meant to be public
+Data_collection/
+
+# One-off export bundles from intermediate review/revision rounds - redundant with results/,
+# which is tracked directly. Left on disk, just not committed.
+review_bundle/
+review_bundle.zip
+step2_results.zip
+step4_results.zip
+step5_results.zip
+step6_results.zip
+step6b_results.zip
+step6c_results.zip
+
+# Caches / local tool state
 code/__pycache__/
+__pycache__/
 *.pyc
 .venv/
-__pycache__/
+.claude/

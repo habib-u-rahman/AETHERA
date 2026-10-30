@@ -1,0 +1,144 @@
+AETHERA - RQ1 results (Kp forecast)
+TSS/HSS: storm alarm when forecast >= 5.  *_tuned: alarm level chosen (max HSS) on 2019-2021 validation data.
+
+=== Test set: test ===
+RMSE (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.900  1.164  1.386  1.606
+RandomForest  0.807  0.997  1.151  1.265
+LSTM          0.806  1.012  1.205  1.339
+
+RMSE_storm (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   1.506  2.308  3.143  3.935
+RandomForest  1.643  2.429  3.170  3.755
+LSTM          1.781  2.627  3.307  3.837
+
+r (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.759  0.597  0.428  0.231
+RandomForest  0.784  0.646  0.482  0.288
+LSTM          0.784  0.630  0.431  0.223
+
+TSS (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.478  0.298  0.179  0.054
+RandomForest  0.367  0.172  0.047  0.000
+LSTM          0.317  0.150  0.009 -0.004
+
+HSS (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.479  0.299  0.180  0.054
+RandomForest  0.467  0.269  0.087  0.000
+LSTM          0.431  0.241  0.017 -0.007
+
+alarm_level (columns = hours ahead)
+horizon_h       3     6     12    24
+model                               
+Persistence   5.00  4.33  5.00  5.00
+RandomForest  4.33  4.00  3.67  3.33
+LSTM          4.33  4.00  3.67  3.00
+
+TSS_tuned (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.478  0.388  0.179  0.054
+RandomForest  0.586  0.397  0.207  0.066
+LSTM          0.541  0.343  0.205  0.087
+
+HSS_tuned (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.479  0.315  0.180  0.054
+RandomForest  0.508  0.333  0.191  0.075
+LSTM          0.518  0.325  0.149  0.036
+
+POD_tuned (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.492  0.416  0.200  0.078
+RandomForest  0.605  0.422  0.232  0.084
+LSTM          0.556  0.363  0.246  0.185
+
+FAR_tuned (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.506  0.718  0.798  0.922
+RandomForest  0.541  0.696  0.801  0.889
+LSTM          0.491  0.675  0.861  0.952
+
+=== Test set: test_2003 ===
+RMSE (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.969  1.225  1.571  1.792
+RandomForest  0.950  1.192  1.417  1.610
+LSTM          0.926  1.195  1.412  1.634
+
+RMSE_storm (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   1.042  1.263  1.828  2.356
+RandomForest  1.289  1.637  2.124  2.577
+LSTM          1.333  1.689  2.133  2.619
+
+r (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.777  0.643  0.421  0.286
+RandomForest  0.755  0.577  0.343  0.249
+LSTM          0.781  0.603  0.390  0.315
+
+TSS (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.527  0.295  0.185  0.023
+RandomForest  0.153  0.015 -0.012  0.000
+LSTM          0.100  0.019  0.000  0.000
+
+HSS (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.520  0.291  0.184  0.024
+RandomForest  0.215  0.023 -0.019  0.000
+LSTM          0.149  0.029  0.000  0.000
+
+alarm_level (columns = hours ahead)
+horizon_h       3     6     12    24
+model                               
+Persistence   5.00  4.33  5.00  5.00
+RandomForest  4.33  4.00  3.67  3.33
+LSTM          4.33  4.00  3.67  3.00
+
+TSS_tuned (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.527  0.476  0.185  0.023
+RandomForest  0.475  0.345  0.316  0.195
+LSTM          0.493  0.351  0.319  0.333
+
+HSS_tuned (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.520  0.393  0.184  0.024
+RandomForest  0.455  0.299  0.253  0.165
+LSTM          0.515  0.340  0.277  0.229
+
+POD_tuned (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.622  0.676  0.342  0.211
+RandomForest  0.595  0.541  0.570  0.477
+LSTM          0.568  0.486  0.526  0.742
+
+FAR_tuned (columns = hours ahead)
+horizon_h        3      6      12     24
+model                                   
+Persistence   0.400  0.564  0.661  0.765
+RandomForest  0.468  0.613  0.654  0.684
+LSTM          0.364  0.550  0.625  0.669

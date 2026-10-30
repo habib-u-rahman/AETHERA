@@ -1,0 +1,150 @@
+AETHERA - RQ2 EXTENDED (8 storms) + NRLMSIS 2.0 density score
+
+Kp-forecast availability per storm:
+  2003_halloween: out-of-sample (RF forecast used)
+  2022_starlink: out-of-sample (RF forecast used)
+  2024_gannon: out-of-sample (RF forecast used)
+  2015_stpatrick: NOT AVAILABLE (in RF training period - observed Kp used instead)
+  2017_september: NOT AVAILABLE (in RF training period - observed Kp used instead)
+  2023_april: out-of-sample (RF forecast used)
+  2024_october: out-of-sample (RF forecast used)
+  2025_november: out-of-sample (RF forecast used)
+
+Passive objects per storm:
+  2003_halloween: 110
+  2022_starlink: 1,211
+  2024_gannon: 311
+  2015_stpatrick: 148
+  2017_september: 210
+  2023_april: 311
+  2024_october: 255
+  2025_november: 261
+
+=== Pooled Spearman rho, PASSIVE objects (two ways; bootstrap: 2000 resamples, seed 20261026) ===
+  Altitude only        all-objects-pooled rho=0.393 [0.360,0.427]  |  mean-of-within-storm rho=0.375 [0.334,0.411] (n_storms=8)
+  Pre-storm decay      all-objects-pooled rho=0.663 [0.630,0.691]  |  mean-of-within-storm rho=0.771 [0.746,0.794] (n_storms=8)
+  Physics score        all-objects-pooled rho=0.661 [0.631,0.689]  |  mean-of-within-storm rho=0.741 [0.714,0.764] (n_storms=8)
+  Physics (NRLMSIS)    all-objects-pooled rho=0.475 [0.435,0.514]  |  mean-of-within-storm rho=0.754 [0.728,0.777] (n_storms=8)
+  ML (forecast Kp)     all-objects-pooled rho=0.594 [0.562,0.625]  |  mean-of-within-storm rho=0.609 [0.572,0.643] (n_storms=8)
+  ML (observed Kp)     all-objects-pooled rho=0.501 [0.464,0.535]  |  mean-of-within-storm rho=0.648 [0.613,0.678] (n_storms=8)
+
+=== Within-storm rho / AUC (top 10%), PASSIVE objects ===
+  --- 2003_halloween (n=110) ---
+    Altitude only        rho= 0.520 [ 0.370, 0.639]  AUC=0.746 [0.642,0.892]
+    Pre-storm decay      rho= 0.980 [ 0.967, 0.985]  AUC=0.982 [0.959,1.000]
+    Physics score        rho= 0.924 [ 0.886, 0.947]  AUC=0.951 [0.910,0.989]
+    Physics (NRLMSIS)    rho= 0.957 [ 0.933, 0.969]  AUC=0.968 [0.935,0.997]
+    ML (forecast Kp)     rho= 0.975 [ 0.955, 0.984]  AUC=0.999 [0.982,1.000]
+    ML (observed Kp)     rho= 0.952 [ 0.916, 0.971]  AUC=0.996 [0.971,1.000]
+  --- 2022_starlink (n=1211) ---
+    Altitude only        rho= 0.543 [ 0.500, 0.582]  AUC=0.903 [0.861,0.928]
+    Pre-storm decay      rho= 0.971 [ 0.967, 0.975]  AUC=0.995 [0.991,0.997]
+    Physics score        rho= 0.945 [ 0.937, 0.952]  AUC=0.991 [0.983,0.995]
+    Physics (NRLMSIS)    rho= 0.944 [ 0.936, 0.950]  AUC=0.989 [0.981,0.994]
+    ML (forecast Kp)     rho= 0.956 [ 0.949, 0.963]  AUC=0.989 [0.983,0.994]
+    ML (observed Kp)     rho= 0.901 [ 0.888, 0.913]  AUC=0.990 [0.984,0.995]
+  --- 2024_gannon (n=311) ---
+    Altitude only        rho= 0.447 [ 0.352, 0.528]  AUC=0.691 [0.616,0.795]
+    Pre-storm decay      rho= 0.974 [ 0.965, 0.979]  AUC=0.987 [0.978,0.998]
+    Physics score        rho= 0.925 [ 0.905, 0.938]  AUC=0.953 [0.931,0.981]
+    Physics (NRLMSIS)    rho= 0.963 [ 0.952, 0.970]  AUC=0.979 [0.967,0.995]
+    ML (forecast Kp)     rho= 0.984 [ 0.978, 0.987]  AUC=0.990 [0.980,0.999]
+    ML (observed Kp)     rho= 0.978 [ 0.971, 0.981]  AUC=0.982 [0.957,0.991]
+  --- 2015_stpatrick (n=148) ---
+    Altitude only        rho= 0.377 [ 0.226, 0.507]  AUC=0.831 [0.663,0.901]
+    Pre-storm decay      rho= 0.978 [ 0.965, 0.985]  AUC=0.994 [0.969,1.000]
+    Physics score        rho= 0.944 [ 0.914, 0.961]  AUC=0.984 [0.943,0.996]
+    Physics (NRLMSIS)    rho= 0.956 [ 0.932, 0.969]  AUC=0.984 [0.947,0.996]
+    ML (forecast Kp)     rho=-0.157 [-0.361, 0.038]  AUC=0.731 [0.449,0.980]
+    ML (observed Kp)     rho= 0.867 [ 0.771, 0.937]  AUC=0.987 [0.956,0.998]
+  --- 2017_september (n=210) ---
+    Altitude only        rho= 0.422 [ 0.313, 0.519]  AUC=0.813 [0.697,0.888]
+    Pre-storm decay      rho= 0.979 [ 0.969, 0.984]  AUC=0.992 [0.978,1.000]
+    Physics score        rho= 0.946 [ 0.927, 0.957]  AUC=0.980 [0.947,0.997]
+    Physics (NRLMSIS)    rho= 0.953 [ 0.936, 0.963]  AUC=0.980 [0.949,0.996]
+    ML (forecast Kp)     rho= 0.855 [ 0.800, 0.896]  AUC=0.975 [0.940,1.000]
+    ML (observed Kp)     rho= 0.823 [ 0.739, 0.886]  AUC=0.884 [0.782,0.993]
+  --- 2023_april (n=311) ---
+    Altitude only        rho= 0.325 [ 0.213, 0.435]  AUC=0.846 [0.716,0.915]
+    Pre-storm decay      rho= 0.611 [ 0.510, 0.698]  AUC=0.997 [0.982,0.999]
+    Physics score        rho= 0.583 [ 0.481, 0.671]  AUC=0.990 [0.958,0.997]
+    Physics (NRLMSIS)    rho= 0.596 [ 0.496, 0.684]  AUC=0.994 [0.971,0.999]
+    ML (forecast Kp)     rho= 0.599 [ 0.501, 0.682]  AUC=0.987 [0.950,0.999]
+    ML (observed Kp)     rho= 0.608 [ 0.511, 0.695]  AUC=0.985 [0.963,0.998]
+  --- 2024_october (n=255) ---
+    Altitude only        rho= 0.040 [-0.098, 0.178]  AUC=0.793 [0.675,0.883]
+    Pre-storm decay      rho=-0.292 [-0.454,-0.127]  AUC=0.961 [0.790,0.993]
+    Physics score        rho=-0.250 [-0.408,-0.092]  AUC=0.957 [0.790,0.988]
+    Physics (NRLMSIS)    rho=-0.281 [-0.457,-0.117]  AUC=0.960 [0.777,0.992]
+    ML (forecast Kp)     rho=-0.309 [-0.469,-0.150]  AUC=0.945 [0.768,0.986]
+    ML (observed Kp)     rho=-0.311 [-0.468,-0.145]  AUC=0.949 [0.776,0.989]
+  --- 2025_november (n=261) ---
+    Altitude only        rho= 0.329 [ 0.206, 0.435]  AUC=0.806 [0.691,0.867]
+    Pre-storm decay      rho= 0.963 [ 0.935, 0.978]  AUC=0.995 [0.983,0.999]
+    Physics score        rho= 0.912 [ 0.878, 0.936]  AUC=0.987 [0.966,0.996]
+    Physics (NRLMSIS)    rho= 0.944 [ 0.913, 0.961]  AUC=0.992 [0.973,0.998]
+    ML (forecast Kp)     rho= 0.965 [ 0.937, 0.979]  AUC=0.975 [0.949,0.991]
+    ML (observed Kp)     rho= 0.370 [ 0.217, 0.508]  AUC=0.913 [0.732,0.982]
+
+=== NRLMSIS 2.0 method notes ===
+Grid: latitudes -80..80 step 10 deg (17), local times 0..21h step 3h (8) -> 136 points/object,
+averaged to one mean density per object per scenario. Local time implemented as longitude at a
+fixed UT=00:00 reference (lon = LT*15 deg). F10.7a = trailing 81-day mean (not centered - centered
+is not available for forecast-based scenarios, so a uniform trailing definition is used throughout).
+Ap converted from Kp via the standard Kp->ap lookup table. geomagnetic_activity left at MSIS default
+(daily-Ap-based storm-time coupling), not the full 7-component historical ap array.
+R_msis = B* x rho_storm(h), using the OBSERVED max-Ap-in-first-3-days scenario (available for all 8
+storms). The RF-forecast-Kp density variant (score_physics_msis_rfKp) is saved in rq2x_objects.csv
+for the 6 out-of-sample storms only, as a secondary comparison, but is not the primary R_msis.
+
+=== Storm/quiet density ratio by altitude band (median, obsAp storm-day vs quiet-day-before) ===
+                             median  count
+storm          alt_band                   
+2003_halloween (200, 300]  1.918985      2
+               (300, 350]  2.055991      7
+               (350, 400]  2.205512     13
+               (400, 450]  2.406733     10
+               (450, 500]  2.588101     41
+               (500, 600]  2.944967    113
+2015_stpatrick (200, 300]  1.441585      3
+               (300, 350]  1.500186      6
+               (350, 400]  1.606239     32
+               (400, 450]  1.674173     49
+               (450, 500]  1.782841     75
+               (500, 600]  1.913102    135
+2017_september (200, 300]  1.707888      2
+               (300, 350]  1.904111     24
+               (350, 400]  2.044569     90
+               (400, 450]  2.178076     41
+               (450, 500]  2.446852    281
+               (500, 600]  2.605852    283
+2022_starlink  (200, 300]  1.091342     14
+               (300, 350]  1.108390    109
+               (350, 400]  1.118393    190
+               (400, 450]  1.133970    425
+               (450, 500]  1.150762   1036
+               (500, 600]  1.177473   2520
+2023_april     (200, 300]  1.563412     27
+               (300, 350]  1.698040     60
+               (350, 400]  1.765853    277
+               (400, 450]  1.959185    246
+               (450, 500]  2.121239    666
+               (500, 600]  2.329452   3245
+2024_gannon    (200, 300]  1.956122     29
+               (300, 350]  2.143710     99
+               (350, 400]  2.316936    172
+               (400, 450]  2.563602    489
+               (450, 500]  2.810690    982
+               (500, 600]  3.218166   4806
+2024_october   (200, 300]  1.516339     20
+               (300, 350]  1.607529     97
+               (350, 400]  1.645812    263
+               (400, 450]  1.788251    835
+               (450, 500]  1.845751   1261
+               (500, 600]  1.994588   4952
+2025_november  (200, 300]  1.776923     35
+               (300, 350]  1.924789     77
+               (350, 400]  2.006094    394
+               (400, 450]  2.245496    627
+               (450, 500]  2.389208   2962
+               (500, 600]  2.684533   3966

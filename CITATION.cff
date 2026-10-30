@@ -1,0 +1,20 @@
+cff-version: 1.2.0
+message: "If you use this software or its results, please cite it as below."
+title: "AETHERA: Linking Machine-Learning Space Weather Forecasts to the Risk of Individual Satellites"
+authors:
+  - given-names: Habib
+version: 1.0.0
+date-released: "2026-01-01"
+license: MIT
+repository-code: "https://github.com/habib-u-rahman/AETHERA"
+doi: "10.5281/zenodo.XXXXXXX"
+type: software
+keywords:
+  - space weather
+  - geomagnetic storms
+  - Kp index forecasting
+  - satellite drag
+  - orbital decay
+  - machine learning
+  - large language models
+  - retrieval-augmented generation

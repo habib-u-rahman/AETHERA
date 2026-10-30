@@ -1,0 +1,23 @@
+AETHERA - RQ3 results (AI-generated alerts)
+Model: openai/gpt-oss-120b
+40 scenarios from 2022-2024; same facts for every system.
+
+                                          Plain LLM     RAG  AETHERA agent
+alerts                                        40.00   40.00          40.00
+alerts with >=1 unsupported number (%)         7.50    0.00           0.00
+unsupported numbers per alert                  0.08    0.00           0.00
+alerts with a wrong Kp value (%)               0.00    2.50           0.00
+storm alerts with correct G-level (%)        100.00  100.00         100.00
+alerts overstating G-level (%)                 0.00    0.00           0.00
+alerts with too-strong severity word (%)      40.00    0.00           0.00
+alerts with ANY error (%)                     45.00    2.50           0.00
+alerts with invented objects (%)               0.00    0.00           0.00
+Flesch reading ease (mean)                    46.75   60.87          61.83
+words (mean)                                 134.18  154.43         148.38
+agent rewrites used (%)                        0.00    0.00          22.50
+
+Wilcoxon test, unsupported numbers, Plain LLM vs AETHERA agent: p = 0.0833
+Wilcoxon test, unsupported numbers, Plain LLM vs RAG: p = 0.0833
+McNemar exact test, any error, Plain LLM vs AETHERA agent: only Plain LLM wrong = 18, only AETHERA agent wrong = 0, p = 0.0000
+McNemar exact test, any error, Plain LLM vs RAG: only Plain LLM wrong = 18, only RAG wrong = 1, p = 0.0001
+McNemar exact test, any error, RAG vs AETHERA agent: only RAG wrong = 1, only AETHERA agent wrong = 0, p = 1.0000

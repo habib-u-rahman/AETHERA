@@ -1,0 +1,172 @@
+AETHERA - RQ2 FINAL: Kp-independent within-storm scores, clean no-fallback ML, baseline sensitivity
+
+Note: within a single storm, any Kp-based multiplier is a CONSTANT across all objects, so it
+cannot change within-storm Spearman rank correlation (multiplying every score by the same
+positive constant preserves rank order exactly). R_rank = B*exp(-(h-400)/60) and
+R_msis_rank = B*rho_quiet(h) are therefore the clean within-storm comparators; the Kp question
+is evaluated separately in section 5 below (pooled across storms, where different storms'
+different Kp constants DO matter for cross-storm rank comparison).
+
+=== 2: ML refit, no fallback ===
+  ML_obs: leave-one-storm-out over all 8 storms, feature = observed max Kp (always real).
+  ML_fc: leave-one-storm-out over ['2003_halloween', '2022_starlink', '2024_gannon', '2023_april', '2024_october', '2025_november'] only - 2015/2017 excluded from BOTH training
+  and testing (not just output-NaN'd); no fallback value used anywhere for this model.
+
+=== 1: within-storm rho/AUC (top 10%), bootstrap 95% CI, PASSIVE objects ===
+  --- 2003_halloween (n=110) ---
+    Altitude only  rho= 0.520 [ 0.370, 0.642]  AUC=0.746 [0.633,0.893]
+    Pre-storm decay rho= 0.980 [ 0.967, 0.986]  AUC=0.982 [0.957,1.000]
+    R_rank         rho= 0.924 [ 0.882, 0.947]  AUC=0.951 [0.911,0.991]
+    R_msis_rank    rho= 0.942 [ 0.908, 0.958]  AUC=0.959 [0.923,0.994]
+    ML_obs         rho= 0.954 [ 0.917, 0.973]  AUC=0.995 [0.969,1.000]
+    ML_fc          rho= 0.963 [ 0.930, 0.978]  AUC=0.998 [0.971,1.000]
+  --- 2022_starlink (n=1211) ---
+    Altitude only  rho= 0.543 [ 0.499, 0.587]  AUC=0.903 [0.862,0.928]
+    Pre-storm decay rho= 0.971 [ 0.966, 0.975]  AUC=0.995 [0.991,0.997]
+    R_rank         rho= 0.945 [ 0.937, 0.952]  AUC=0.991 [0.983,0.995]
+    R_msis_rank    rho= 0.942 [ 0.934, 0.950]  AUC=0.989 [0.980,0.993]
+    ML_obs         rho= 0.911 [ 0.898, 0.922]  AUC=0.990 [0.984,0.994]
+    ML_fc          rho= 0.961 [ 0.954, 0.965]  AUC=0.988 [0.982,0.993]
+  --- 2024_gannon (n=311) ---
+    Altitude only  rho= 0.447 [ 0.352, 0.527]  AUC=0.691 [0.618,0.793]
+    Pre-storm decay rho= 0.974 [ 0.965, 0.979]  AUC=0.987 [0.977,0.998]
+    R_rank         rho= 0.925 [ 0.905, 0.937]  AUC=0.953 [0.929,0.980]
+    R_msis_rank    rho= 0.948 [ 0.934, 0.957]  AUC=0.967 [0.951,0.989]
+    ML_obs         rho= 0.977 [ 0.971, 0.981]  AUC=0.981 [0.954,0.991]
+    ML_fc          rho= 0.975 [ 0.964, 0.983]  AUC=0.989 [0.979,0.998]
+  --- 2015_stpatrick (n=148) ---
+    Altitude only  rho= 0.377 [ 0.223, 0.513]  AUC=0.831 [0.664,0.901]
+    Pre-storm decay rho= 0.978 [ 0.964, 0.985]  AUC=0.994 [0.970,1.000]
+    R_rank         rho= 0.944 [ 0.915, 0.960]  AUC=0.984 [0.945,0.996]
+    R_msis_rank    rho= 0.948 [ 0.920, 0.963]  AUC=0.982 [0.941,0.995]
+    ML_obs         rho= 0.852 [ 0.752, 0.931]  AUC=0.988 [0.957,0.998]
+    ML_fc          rho=   NaN  AUC=  NaN
+  --- 2017_september (n=210) ---
+    Altitude only  rho= 0.422 [ 0.305, 0.522]  AUC=0.813 [0.690,0.887]
+    Pre-storm decay rho= 0.979 [ 0.969, 0.984]  AUC=0.992 [0.977,1.000]
+    R_rank         rho= 0.946 [ 0.927, 0.957]  AUC=0.980 [0.947,0.997]
+    R_msis_rank    rho= 0.943 [ 0.922, 0.956]  AUC=0.976 [0.941,0.995]
+    ML_obs         rho= 0.832 [ 0.754, 0.889]  AUC=0.884 [0.786,0.993]
+    ML_fc          rho=   NaN  AUC=  NaN
+  --- 2023_april (n=311) ---
+    Altitude only  rho= 0.325 [ 0.213, 0.435]  AUC=0.846 [0.717,0.912]
+    Pre-storm decay rho= 0.611 [ 0.515, 0.697]  AUC=0.997 [0.984,0.999]
+    R_rank         rho= 0.583 [ 0.482, 0.668]  AUC=0.990 [0.959,0.997]
+    R_msis_rank    rho= 0.589 [ 0.488, 0.673]  AUC=0.990 [0.964,0.997]
+    ML_obs         rho= 0.608 [ 0.511, 0.692]  AUC=0.985 [0.960,0.998]
+    ML_fc          rho= 0.174 [ 0.037, 0.307]  AUC=0.914 [0.704,0.988]
+  --- 2024_october (n=255) ---
+    Altitude only  rho= 0.040 [-0.097, 0.170]  AUC=0.793 [0.675,0.881]
+    Pre-storm decay rho=-0.292 [-0.459,-0.128]  AUC=0.961 [0.792,0.993]
+    R_rank         rho=-0.250 [-0.405,-0.084]  AUC=0.957 [0.798,0.988]
+    R_msis_rank    rho=-0.272 [-0.433,-0.109]  AUC=0.961 [0.790,0.992]
+    ML_obs         rho=-0.310 [-0.482,-0.155]  AUC=0.951 [0.762,0.989]
+    ML_fc          rho=-0.315 [-0.475,-0.145]  AUC=0.941 [0.775,0.985]
+  --- 2025_november (n=261) ---
+    Altitude only  rho= 0.329 [ 0.216, 0.435]  AUC=0.806 [0.695,0.868]
+    Pre-storm decay rho= 0.963 [ 0.934, 0.978]  AUC=0.995 [0.983,0.999]
+    R_rank         rho= 0.912 [ 0.876, 0.936]  AUC=0.987 [0.966,0.995]
+    R_msis_rank    rho= 0.930 [ 0.898, 0.950]  AUC=0.989 [0.969,0.996]
+    ML_obs         rho= 0.320 [ 0.167, 0.460]  AUC=0.914 [0.735,0.981]
+    ML_fc          rho= 0.966 [ 0.944, 0.979]  AUC=0.978 [0.952,0.992]
+
+=== 1 (PAYLOADS) within-storm rho, bootstrap 95% CI ===
+  --- 2003_halloween (n=76) ---
+    Altitude only  rho= 0.740 [ 0.604, 0.840]
+    Pre-storm decay rho= 0.908 [ 0.816, 0.957]
+    R_rank         rho= 0.916 [ 0.845, 0.950]
+    R_msis_rank    rho= 0.922 [ 0.860, 0.953]
+    ML_obs         rho= 0.707 [ 0.533, 0.828]
+    ML_fc          rho= 0.813 [ 0.689, 0.890]
+  --- 2022_starlink (n=3083) ---
+    Altitude only  rho= 0.395 [ 0.359, 0.428]
+    Pre-storm decay rho= 0.429 [ 0.392, 0.467]
+    R_rank         rho= 0.538 [ 0.505, 0.570]
+    R_msis_rank    rho= 0.537 [ 0.503, 0.568]
+    ML_obs         rho= 0.514 [ 0.482, 0.544]
+    ML_fc          rho= 0.598 [ 0.567, 0.626]
+  --- 2024_gannon (n=6266) ---
+    Altitude only  rho= 0.474 [ 0.451, 0.498]
+    Pre-storm decay rho= 0.441 [ 0.412, 0.469]
+    R_rank         rho= 0.517 [ 0.495, 0.541]
+    R_msis_rank    rho= 0.511 [ 0.487, 0.534]
+    ML_obs         rho= 0.522 [ 0.499, 0.544]
+    ML_fc          rho= 0.553 [ 0.531, 0.574]
+  --- 2015_stpatrick (n=152) ---
+    Altitude only  rho= 0.698 [ 0.567, 0.805]
+    Pre-storm decay rho= 0.806 [ 0.677, 0.908]
+    R_rank         rho= 0.799 [ 0.660, 0.908]
+    R_msis_rank    rho= 0.800 [ 0.664, 0.902]
+    ML_obs         rho= 0.662 [ 0.529, 0.776]
+    ML_fc          rho=   NaN
+  --- 2017_september (n=511) ---
+    Altitude only  rho= 0.715 [ 0.657, 0.766]
+    Pre-storm decay rho= 0.805 [ 0.748, 0.851]
+    R_rank         rho= 0.806 [ 0.753, 0.854]
+    R_msis_rank    rho= 0.805 [ 0.753, 0.849]
+    ML_obs         rho= 0.622 [ 0.547, 0.686]
+    ML_fc          rho=   NaN
+  --- 2023_april (n=4210) ---
+    Altitude only  rho= 0.256 [ 0.223, 0.287]
+    Pre-storm decay rho= 0.237 [ 0.203, 0.271]
+    R_rank         rho= 0.317 [ 0.287, 0.347]
+    R_msis_rank    rho= 0.310 [ 0.280, 0.342]
+    ML_obs         rho= 0.290 [ 0.260, 0.319]
+    ML_fc          rho= 0.151 [ 0.118, 0.184]
+  --- 2024_october (n=7173) ---
+    Altitude only  rho=-0.102 [-0.128,-0.075]
+    Pre-storm decay rho=-0.722 [-0.740,-0.704]
+    R_rank         rho=-0.355 [-0.379,-0.330]
+    R_msis_rank    rho=-0.371 [-0.395,-0.346]
+    ML_obs         rho=-0.238 [-0.262,-0.212]
+    ML_fc          rho=-0.229 [-0.256,-0.203]
+  --- 2025_november (n=7800) ---
+    Altitude only  rho= 0.115 [ 0.092, 0.141]
+    Pre-storm decay rho=-0.070 [-0.100,-0.043]
+    R_rank         rho= 0.228 [ 0.202, 0.250]
+    R_msis_rank    rho= 0.226 [ 0.199, 0.251]
+    ML_obs         rho= 0.124 [ 0.098, 0.149]
+    ML_fc          rho= 0.193 [ 0.168, 0.217]
+
+=== 3: cross-storm summary (median/mean rho, # storms rho>=0.9) ===
+   group                scope          method  n_storms  median_rho  mean_rho  n_storms_rho_ge_0.9
+ PASSIVE         ALL_8_STORMS   Altitude only         8       0.400     0.375                    0
+ PASSIVE         ALL_8_STORMS Pre-storm decay         8       0.973     0.771                    6
+ PASSIVE         ALL_8_STORMS          R_rank         8       0.924     0.741                    6
+ PASSIVE         ALL_8_STORMS     R_msis_rank         8       0.942     0.746                    6
+ PASSIVE         ALL_8_STORMS          ML_obs         8       0.842     0.643                    3
+ PASSIVE         ALL_8_STORMS           ML_fc         6       0.962     0.621                    4
+ PASSIVE EXCLUDE_2024_OCTOBER   Altitude only         7       0.422     0.423                    0
+ PASSIVE EXCLUDE_2024_OCTOBER Pre-storm decay         7       0.974     0.923                    6
+ PASSIVE EXCLUDE_2024_OCTOBER          R_rank         7       0.925     0.883                    6
+ PASSIVE EXCLUDE_2024_OCTOBER     R_msis_rank         7       0.942     0.892                    6
+ PASSIVE EXCLUDE_2024_OCTOBER          ML_obs         7       0.852     0.779                    3
+ PASSIVE EXCLUDE_2024_OCTOBER           ML_fc         5       0.963     0.808                    4
+PAYLOADS         ALL_8_STORMS   Altitude only         8       0.434     0.411                    0
+PAYLOADS         ALL_8_STORMS Pre-storm decay         8       0.435     0.354                    1
+PAYLOADS         ALL_8_STORMS          R_rank         8       0.528     0.471                    1
+PAYLOADS         ALL_8_STORMS     R_msis_rank         8       0.524     0.467                    1
+PAYLOADS         ALL_8_STORMS          ML_obs         8       0.518     0.400                    0
+PAYLOADS         ALL_8_STORMS           ML_fc         6       0.373     0.346                    0
+PAYLOADS EXCLUDE_2024_OCTOBER   Altitude only         7       0.474     0.485                    0
+PAYLOADS EXCLUDE_2024_OCTOBER Pre-storm decay         7       0.441     0.508                    1
+PAYLOADS EXCLUDE_2024_OCTOBER          R_rank         7       0.538     0.589                    1
+PAYLOADS EXCLUDE_2024_OCTOBER     R_msis_rank         7       0.537     0.587                    1
+PAYLOADS EXCLUDE_2024_OCTOBER          ML_obs         7       0.522     0.491                    0
+PAYLOADS EXCLUDE_2024_OCTOBER           ML_fc         5       0.553     0.462                    0
+
+=== 4: alternative baseline sensitivity (ends at the most recent earlier Kp>=5 period, 10-day lookback) ===
+         storm  baseline_shifted    alt_baseline_end  rho_Rrank_alt_baseline  frac_negative_excess_decay_alt
+2003_halloween              True 2003-10-19 18:00:00                     NaN                             NaN
+ 2022_starlink             False 2022-02-03 00:00:00                   0.945                           0.010
+   2024_gannon              True 2024-05-06 00:00:00                     NaN                             NaN
+2015_stpatrick             False 2015-03-17 00:00:00                   0.944                           0.000
+2017_september              True 2017-08-31 06:00:00                     NaN                             NaN
+    2023_april             False 2023-04-23 00:00:00                   0.583                           0.338
+  2024_october              True 2024-10-07 00:00:00                   0.215                           0.545
+ 2025_november              True 2025-11-05 21:00:00                     NaN                             NaN
+
+=== 5: between-storm Kp question (kept separate, pooled rho, PASSIVE, all objects) ===
+                                    variant    n   rho  rho_ci_lo  rho_ci_hi
+              observed max Kp, all 8 storms 2817 0.565      0.529      0.600
+RF forecast Kp, 6 out-of-sample storms only 2459 0.644      0.611      0.673

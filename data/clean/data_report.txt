@@ -1,0 +1,23 @@
+AETHERA - OMNI data report
+Time range: 2000-01-01 00:00:00 to 2025-12-31 23:00:00  (227,928 hours)
+
+Missing values (%)   before -> after filling gaps of <= 3 h
+  B            0.15 ->   0.14
+  By           0.17 ->   0.16
+  Bz           0.17 ->   0.16
+  density      2.20 ->   2.04
+  speed        0.37 ->   0.31
+  pressure     2.21 ->   2.04
+  E_field      0.41 ->   0.35
+  dst          0.00 ->   0.00
+  f107         0.12 ->   0.12
+  kp           0.00 ->   0.00
+
+Train hours: 192,096   storm hours (Kp>=5): 4,728 (2.46%)
+Test hours:  26,304   storm hours (Kp>=5): 696 (2.65%)
+2003 test:   768   storm hours (Kp>=5): 195
+
+Max Kp in each storm window:
+  Oct 2003: 9.0
+  Feb 2022: 5.3
+  May 2024: 9.0

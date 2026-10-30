@@ -1,0 +1,9 @@
+storm,pre_max_kp,pre_max_G,post_max_kp,post_max_G,baseline_contaminated
+2003_halloween,6.7,G2,9.0,G5,True
+2022_starlink,4.0,G0,5.3,G1,False
+2024_gannon,5.3,G1,9.0,G5,False
+2015_stpatrick,3.7,G0,7.7,G3,False
+2017_september,4.7,G0,8.3,G4,False
+2023_april,4.7,G0,8.3,G4,False
+2024_october,7.0,G3,8.7,G4,True
+2025_november,6.7,G2,8.7,G4,True

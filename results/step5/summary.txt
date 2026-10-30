@@ -1,0 +1,26 @@
+AETHERA - RQ1 Random Forest made probabilistic (split-conformal + isotonic), no new training data
+
+Point-forecast reproduction check (test=2022-2024):
+  3h target RMSE 0.807
+  6h target RMSE 0.997
+  12h target RMSE 1.151
+  24h target RMSE 1.265
+PASSED - rf_kp.joblib is exactly the RQ1 Random Forest.
+
+Calibration: split-conformal prediction intervals (residual quantiles binned into 5 bins by predicted Kp, fit on 2019-2021 validation only), and isotonic regression on the fraction of trees predicting Kp>=5 (fit on validation only). No refitting on test data.
+
+=== 2022-2024 ===
+               n  coverage_50  width_50  coverage_80  width_80  coverage_90  width_90    CRPS  CRPS_climatology   CRPSS   Brier  Brier_climatology     BSS  ROC_AUC
+horizon_h                                                                                                                                                          
+3          25210       0.5062    1.0534       0.7866    1.9453       0.8921    2.5134  0.4511            0.7346  0.3859  0.0167             0.0253  0.3404   0.9382
+6          25210       0.5077    1.2895       0.7844    2.3516       0.8847    3.0017  0.5545            0.7352  0.2457  0.0211             0.0254  0.1694   0.8644
+12         25210       0.4992    1.4453       0.7856    2.6318       0.8841    3.3497  0.6360            0.7352  0.1350  0.0240             0.0255  0.0575   0.7519
+24         25210       0.4919    1.5286       0.7679    2.7391       0.8751    3.4695  0.7054            0.7355  0.0409  0.0253             0.0253 -0.0015   0.6202
+
+=== 2025 ===
+              n  coverage_50  width_50  coverage_80  width_80  coverage_90  width_90    CRPS  CRPS_climatology   CRPSS   Brier  Brier_climatology     BSS  ROC_AUC
+horizon_h                                                                                                                                                         
+3          8531       0.5341    1.1295       0.8212    2.0651       0.9167    2.6943  0.4468            0.9085  0.5082  0.0306             0.0506  0.3946   0.9415
+6          8531       0.5480    1.3740       0.8339    2.5015       0.9176    3.2114  0.5393            0.9080  0.4061  0.0415             0.0505  0.1794   0.8884
+12         8531       0.5384    1.5387       0.8187    2.7884       0.9099    3.5390  0.6340            0.9042  0.2988  0.0481             0.0499  0.0361   0.7740
+24         8531       0.4818    1.5776       0.7520    2.8063       0.8614    3.5540  0.7639            0.9051  0.1561  0.0490             0.0487 -0.0066   0.6705

@@ -1,0 +1,27 @@
+AETHERA - RQ3 EXTENDED results (100 scenarios x 3 systems x 3 models)
+Models: ['openai/gpt-oss-120b', 'qwen/qwen3.8-27b', 'allam-2-7b']
+Scenarios: 100 (70 storm, 30 quiet)
+
+=== openai/gpt-oss-120b ===
+  Plain LLM        n=100  error%= 41.0  severity_overstated%= 38.0  flesch=47.86  words=131.8  rewrites%=  0.0
+  RAG              n=100  error%=  2.0  severity_overstated%=  0.0  flesch=61.48  words=154.9  rewrites%=  0.0
+  AETHERA agent    n=100  error%=  0.0  severity_overstated%=  0.0  flesch=61.38  words=149.5  rewrites%=  9.0
+  McNemar exact, any error, Plain LLM vs RAG: only Plain LLM wrong=41, only RAG wrong=2, p=0.0000
+  McNemar exact, any error, Plain LLM vs AETHERA agent: only Plain LLM wrong=41, only AETHERA agent wrong=0, p=0.0000
+  McNemar exact, any error, RAG vs AETHERA agent: only RAG wrong=2, only AETHERA agent wrong=0, p=0.5000
+
+=== qwen/qwen3.8-27b ===
+  Plain LLM        n=100  error%= 13.0  severity_overstated%= 12.0  flesch=46.98  words=128.3  rewrites%=  0.0
+  RAG              n=100  error%=  9.0  severity_overstated%=  0.0  flesch=64.76  words=133.2  rewrites%=  0.0
+  AETHERA agent    n=100  error%=  2.0  severity_overstated%=  0.0  flesch=60.03  words=136.6  rewrites%=  2.0
+  McNemar exact, any error, Plain LLM vs RAG: only Plain LLM wrong=13, only RAG wrong=9, p=0.5235
+  McNemar exact, any error, Plain LLM vs AETHERA agent: only Plain LLM wrong=13, only AETHERA agent wrong=2, p=0.0074
+  McNemar exact, any error, RAG vs AETHERA agent: only RAG wrong=7, only AETHERA agent wrong=0, p=0.0156
+
+=== allam-2-7b ===
+  Plain LLM        n=100  error%= 68.0  severity_overstated%= 60.0  flesch=51.43  words=217.7  rewrites%=  0.0
+  RAG              n=100  error%= 89.0  severity_overstated%= 58.0  flesch=46.35  words=223.6  rewrites%=  0.0
+  AETHERA agent    n=100  error%= 32.0  severity_overstated%= 21.0  flesch=42.85  words=204.1  rewrites%= 47.0
+  McNemar exact, any error, Plain LLM vs RAG: only Plain LLM wrong=5, only RAG wrong=26, p=0.0002
+  McNemar exact, any error, Plain LLM vs AETHERA agent: only Plain LLM wrong=46, only AETHERA agent wrong=10, p=0.0000
+  McNemar exact, any error, RAG vs AETHERA agent: only RAG wrong=59, only AETHERA agent wrong=2, p=0.0000
